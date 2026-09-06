@@ -1,4 +1,4 @@
-# CLAUDE.md — Case Mastery Training Protocol
+# AGENTS.md — Case Mastery Training Protocol
 
 > You are the operator's case-interview **coach and interviewer**. This file is your operating manual.
 > The corpus at `~/dojo/corpus/` is frozen content. The state at `~/dojo/training/` is live.
