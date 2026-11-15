@@ -1,0 +1,2653 @@
+{
+  "meta": {
+    "generated": "2026-11-15",
+    "revised": "Publication version: source claims, filename matches, access uncertainty and text-level duplicate evidence are separated.",
+    "purpose": "Dated comparison of the original 144 repository files against the school/edition listings on two public casebook directories.",
+    "permitted_inputs": [
+      "https://strategycase.com/free-mba-casebooks/",
+      "https://www.masterthecase.com/case-interview-casebooks-top-mba",
+      "https://soreno.ai/articles/consulting-casebooks",
+      "https://sites.google.com/fms.edu/conclubfms/casebook/casebook-archive",
+      "books.json",
+      "text-duplicate-candidates.json",
+      "Private dated retrieval and extraction evidence; not included in this public repository."
+    ],
+    "local_corpus": {
+      "pdfs": 140,
+      "office_docs": [
+        "Duke Fuqua Casebook-2012.pptx",
+        "Duke Fuqua Casebook-2013.pptx",
+        "Michigan Ross Casebook-1999.doc",
+        "NYU Stern Casebook-2000.doc"
+      ],
+      "total_case_files": 144,
+      "note": "No corpus file was added, removed, or modified by this audit; duplicate candidates are flagged only."
+    },
+    "method": [
+      "Every school-edition named on the two primary pages is enumerated exactly as the page labels it (StrategyCase: 47 ranked + 4 new 2025-26 editions + Indian B-school books with FMS exploded into the 5 editions the page names; MasterTheCase: all 76 school-year entries).",
+      "Matching is by explicit normalization only (exact filename / season-year / school+year with named variant); no fuzzy title matching was used.",
+      "present_title_match = a local file matches school+edition by the stated normalization. Content identity vs the aggregator copies was NOT verified (no downloads); page/char counts are correlational only and prove neither equivalence nor distinctness.",
+      "uncertain = a plausible near-year candidate exists but season boundaries cannot be confirmed from filenames.",
+      "source_reported_gate = absent locally; the source page or a captured secondary source explicitly reports a possible login requirement or an access restriction (e.g., StrategyCase: hosts 'may ask you to log in before downloading'; Soreno: Kellogg 2016 cover states KCC members only). Direct access was NOT tested by this audit; no host is asserted to require payment or login.",
+      "access_unverified = absent locally; hosted on a third-party site, with no gate statement in the captures for the entry and no access test performed by this audit.",
+      "primary_source_available = absent locally but a school/firm primary host for it is seen in the research captures.",
+      "duplicate determination is exclusively SHA256 over normalized extracted text (Unicode NFC, whitespace collapsed). All 144 local case files were grouped corpus-wide: 134 distinct hashes, exactly 10 multi-file groups (canonical list: text-duplicate-candidates.json, recomputation-verified). Every group falls within the flagged same-label candidate pairs; no cross-label text-identical groups exist. text_identical establishes text-level equivalence only - it cannot certify graphics, scans, layout or pagination; text_differs establishes that equivalence was not proven - it does not prove distinct editions or cases. Candidates are flagged only; every file is preserved.",
+      "distinct_school_edition_keys_across_both_pages counts normalized school+year LISTING keys on the two pages; it is a listing count, not an assertion about distinct physical books.",
+      "Claims made BY the sources (page counts, case counts, tier verdicts, '700+ cases') are recorded as claims and are not treated as verified facts."
+    ],
+    "verification_flags": [
+      "MasterTheCase capture contains no direct file URLs: every download link is the #two-step anchor, so per-edition source URLs cannot be cited beyond the page itself.",
+      "Initial MIT Sloan 2011 text extraction was image-only; later OCR was performed. See the source catalogue for current case-index coverage.",
+      "Kellogg_Case_Book_2012.pdf: Poppler syntax errors during extraction (text still extracted).",
+      "Text comparisons use pre-existing pdftotext output; extraction-order artifacts can make scans of equivalent books hash differently, so 'text_differs' means 'not proven equivalent', never 'proven distinct'.",
+      "Duke Fuqua Casebook-2012.pptx / -2013.pptx / Michigan Ross Casebook-1999.doc / NYU Stern Casebook-2000.doc are office docs outside pdf-inventory.json and outside both source pages' enumerations."
+    ],
+    "snapshot_scope": "Comparison against the original 144 local files, before publisher-linked additions. A listing match is not a content identity check."
+  },
+  "summary": {
+    "entries_total": 135,
+    "strategycase_entries": 59,
+    "masterthecase_entries": 76,
+    "status_counts_overall": {
+      "present_title_match": 97,
+      "uncertain": 5,
+      "source_reported_gate": 5,
+      "access_unverified": 3,
+      "primary_source_available": 6,
+      "missing": 19
+    },
+    "status_counts_by_page": {
+      "strategycase": {
+        "present_title_match": 46,
+        "uncertain": 1,
+        "source_reported_gate": 4,
+        "access_unverified": 3,
+        "primary_source_available": 5
+      },
+      "masterthecase": {
+        "present_title_match": 51,
+        "missing": 19,
+        "source_reported_gate": 1,
+        "uncertain": 4,
+        "primary_source_available": 1
+      }
+    },
+    "distinct_school_edition_keys_across_both_pages": 106,
+    "local_case_files_referenced_by_either_page": 90,
+    "local_case_files_not_referenced_by_either_page": 54,
+    "duplicate_candidate_pairs": 21,
+    "duplicate_candidates_text_identical": 10,
+    "duplicate_candidates_text_differs": 11,
+    "corpus_files_hashed": 144,
+    "distinct_normalized_text_hashes": 134,
+    "normalized_text_identical_groups_corpus_wide": 10
+  },
+  "local_files_not_in_either_source_page": [
+    "Carnegie Mellon Tepper Casebook-2008.pdf",
+    "Chicago Booth Casebook-2000.pdf",
+    "Chicago Booth Casebook-2003.pdf",
+    "Columbia Casebook-2004.pdf",
+    "Columbia Casebook-2008.pdf",
+    "Cornell Johnson Casebook-2019.pdf",
+    "Dartmouth Tuck Casebook-2006.pdf",
+    "Duke Fuqua Casebook-2001.pdf",
+    "Duke Fuqua Casebook-2005.pdf",
+    "Duke Fuqua Casebook-2008.pdf",
+    "Duke Fuqua Casebook-2009.pdf",
+    "Duke Fuqua Casebook-2010.pdf",
+    "Duke Fuqua Casebook-2012.pptx",
+    "Duke Fuqua Casebook-2013.pptx",
+    "Duke Fuqua Casebook-2014 1.pdf",
+    "Duke Fuqua Casebook-2014 2.pdf",
+    "Georgetown Casebook-2015.pdf",
+    "Harvard HBS Casebook-2010.pdf",
+    "London Casebook-2005.pdf",
+    "MIT Sloan Casebook-2004.pdf",
+    "Michigan Ross Casebook-1999.doc",
+    "Michigan Ross Casebook-2001.pdf",
+    "Michigan Ross Casebook-2003.pdf",
+    "Michigan Ross Casebook-2004.pdf",
+    "Michigan Ross Casebook-2005.pdf",
+    "Michigan Ross Casebook-2006.pdf",
+    "Michigan Ross Casebook-2013.pdf",
+    "NYU Stern Casebook-2000.doc",
+    "NYU Stern Casebook-2006.pdf",
+    "NYU Stern Casebook-2007.pdf",
+    "NYU Stern Casebook-2013.pdf",
+    "NYU Stern Casebook-2023.pdf",
+    "Northwestern Kellogg Casebook-2001.pdf",
+    "Northwestern Kellogg Casebook-2004.pdf",
+    "Purdue Krannert Casebook-2013.pdf",
+    "Stanford Casebook -2006.pdf",
+    "UC Berkeley HAAS Case Book-2015.pdf",
+    "UCLA Anderson Casebook-1999.pdf",
+    "UPenn Wharton Casebook-2003.pdf",
+    "UPenn Wharton Casebook-2004.pdf",
+    "UPenn Wharton Casebook-2005.pdf",
+    "UPenn Wharton Casebook-2011.pdf",
+    "USC Marshall Casebook-2001.pdf",
+    "USC Marshall Casebook-2015-1.pdf",
+    "USC Marshall Casebook-2015-2.pdf",
+    "USC Marshall Casebook-2015-3.pdf",
+    "UT Austin McCombs-2007.pdf",
+    "UVA Darden Casebook-2002.pdf",
+    "UVA Darden Casebook-2003.pdf",
+    "UVA Darden Casebook-2005.pdf",
+    "UVA Darden Casebook-2011.pdf",
+    "UVA Darden Casebook-2014-1.pdf",
+    "UVA Darden Casebook-2014-2.pdf",
+    "Yale Casebook-2008.pdf"
+  ],
+  "duplicate_candidates": [
+    {
+      "files": [
+        "Harvard HBS Casebook-2004.pdf",
+        "Harvard HBS Casebook-2010.pdf"
+      ],
+      "candidacy_basis": "same school, different year labels (2004 vs 2010)",
+      "result": "text_identical",
+      "evidence": {
+        "pages": {
+          "Harvard HBS Casebook-2004.pdf": 114,
+          "Harvard HBS Casebook-2010.pdf": 114
+        },
+        "chars": {
+          "Harvard HBS Casebook-2004.pdf": 237366,
+          "Harvard HBS Casebook-2010.pdf": 237366
+        },
+        "raw_sha256": {
+          "Harvard HBS Casebook-2004.pdf": "099ada116624fcc1421bbc07341eaddc3c4c5d60372df99c5989f7a6a477a83a",
+          "Harvard HBS Casebook-2010.pdf": "77b3a4f2b8839c68314ba3e3c8f2a13c0a774b8443e8e3838d03b48f99b407b3"
+        },
+        "normalized_text_sha256": {
+          "Harvard HBS Casebook-2004.pdf": "e1f89f1ae203ee4779f4e7d156e4f6ac805a803a30ad7d0dbe78c550f6735ae6",
+          "Harvard HBS Casebook-2010.pdf": "e1f89f1ae203ee4779f4e7d156e4f6ac805a803a30ad7d0dbe78c550f6735ae6"
+        }
+      },
+      "note": "Identical normalized-text SHA256: equivalent at text level only. Text equivalence cannot certify graphics, scans or layout. Both files preserved. Same text filed under two year labels (2004 vs 2010); which year label is correct is undetermined."
+    },
+    {
+      "files": [
+        "Wharton_Case_Book_2017.pdf",
+        "UPenn Wharton Casebook-2017.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Wharton 2017)",
+      "result": "text_identical",
+      "evidence": {
+        "pages": {
+          "Wharton_Case_Book_2017.pdf": 201,
+          "UPenn Wharton Casebook-2017.pdf": 201
+        },
+        "chars": {
+          "Wharton_Case_Book_2017.pdf": 227153,
+          "UPenn Wharton Casebook-2017.pdf": 227153
+        },
+        "raw_sha256": {
+          "Wharton_Case_Book_2017.pdf": "ce11a0188b1ef7afba44db4476d0547e1007fd8b9c65ca6b691f36d23c64a823",
+          "UPenn Wharton Casebook-2017.pdf": "47f9c61a67741d791ce6e1816eece04558ab9a9830f35ca85c64c8d923ee7133"
+        },
+        "normalized_text_sha256": {
+          "Wharton_Case_Book_2017.pdf": "2e3f4ae1784ba27c5a4184be43b831abc35ecf2f240e26e3f0aa0437001f2e6b",
+          "UPenn Wharton Casebook-2017.pdf": "2e3f4ae1784ba27c5a4184be43b831abc35ecf2f240e26e3f0aa0437001f2e6b"
+        }
+      },
+      "note": "Identical normalized-text SHA256: equivalent at text level only. Text equivalence cannot certify graphics, scans or layout. Both files preserved."
+    },
+    {
+      "files": [
+        "Kellogg_Case_Book_2012.pdf",
+        "Northwestern Kellogg Casebook-2012.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Kellogg 2012)",
+      "result": "text_identical",
+      "evidence": {
+        "pages": {
+          "Kellogg_Case_Book_2012.pdf": 236,
+          "Northwestern Kellogg Casebook-2012.pdf": 236
+        },
+        "chars": {
+          "Kellogg_Case_Book_2012.pdf": 469863,
+          "Northwestern Kellogg Casebook-2012.pdf": 469863
+        },
+        "raw_sha256": {
+          "Kellogg_Case_Book_2012.pdf": "9c3622a40d3ba65c7d5e518150a6c1e5c51b0e9e76bfaeadf0883602497b9e74",
+          "Northwestern Kellogg Casebook-2012.pdf": "4039306a3a86ba26c2d85926db9e92297baab6bba1f9c8a010568696dcca9b0c"
+        },
+        "normalized_text_sha256": {
+          "Kellogg_Case_Book_2012.pdf": "0342588eb2f1cdb9dd3f8b1a8365b3c464a207121c6319bf45e132b11a8ace53",
+          "Northwestern Kellogg Casebook-2012.pdf": "0342588eb2f1cdb9dd3f8b1a8365b3c464a207121c6319bf45e132b11a8ace53"
+        }
+      },
+      "note": "Identical normalized-text SHA256: equivalent at text level only. Text equivalence cannot certify graphics, scans or layout. Both files preserved."
+    },
+    {
+      "files": [
+        "Ross_2010.pdf",
+        "Michigan Ross Casebook-2010-1.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Ross 2010)",
+      "result": "text_identical",
+      "evidence": {
+        "pages": {
+          "Ross_2010.pdf": 108,
+          "Michigan Ross Casebook-2010-1.pdf": 108
+        },
+        "chars": {
+          "Ross_2010.pdf": 163367,
+          "Michigan Ross Casebook-2010-1.pdf": 163367
+        },
+        "raw_sha256": {
+          "Ross_2010.pdf": "fff12387f13133bfccf3650f7330da99814c2a8cb590a82602f56630ca879994",
+          "Michigan Ross Casebook-2010-1.pdf": "7b25cb4b1e9b1dc37a9fa531fdac33e63252e6bb31e9a3650a2f8df4c087a927"
+        },
+        "normalized_text_sha256": {
+          "Ross_2010.pdf": "a792fb234c933b5f935dd8493e4232ea3f9867e3f6e55e684884900e06d3da29",
+          "Michigan Ross Casebook-2010-1.pdf": "a792fb234c933b5f935dd8493e4232ea3f9867e3f6e55e684884900e06d3da29"
+        }
+      },
+      "note": "Identical normalized-text SHA256: equivalent at text level only. Text equivalence cannot certify graphics, scans or layout. Both files preserved."
+    },
+    {
+      "files": [
+        "Ross_2010.pdf",
+        "Michigan Ross Casebook-2010-2.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Ross 2010)",
+      "result": "text_differs",
+      "evidence": {
+        "pages": {
+          "Ross_2010.pdf": 108,
+          "Michigan Ross Casebook-2010-2.pdf": 95
+        },
+        "chars": {
+          "Ross_2010.pdf": 163367,
+          "Michigan Ross Casebook-2010-2.pdf": 147279
+        },
+        "raw_sha256": {
+          "Ross_2010.pdf": "fff12387f13133bfccf3650f7330da99814c2a8cb590a82602f56630ca879994",
+          "Michigan Ross Casebook-2010-2.pdf": "b50d7ff102a9aa229476e55617bc3b0f34107517ff59ce426d93cc2b71236c3c"
+        },
+        "normalized_text_sha256": {
+          "Ross_2010.pdf": "a792fb234c933b5f935dd8493e4232ea3f9867e3f6e55e684884900e06d3da29",
+          "Michigan Ross Casebook-2010-2.pdf": "3ee45f44fc90a4243cc8457df3c51a83224658c92085adb012048a026296abb4"
+        }
+      },
+      "note": "Normalized texts differ: equivalence not established. This does not prove distinct editions or cases (extraction-order or minor-variant differences are possible). Both files preserved."
+    },
+    {
+      "files": [
+        "Michigan Ross Casebook-2010-1.pdf",
+        "Michigan Ross Casebook-2010-2.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Ross 2010)",
+      "result": "text_differs",
+      "evidence": {
+        "pages": {
+          "Michigan Ross Casebook-2010-1.pdf": 108,
+          "Michigan Ross Casebook-2010-2.pdf": 95
+        },
+        "chars": {
+          "Michigan Ross Casebook-2010-1.pdf": 163367,
+          "Michigan Ross Casebook-2010-2.pdf": 147279
+        },
+        "raw_sha256": {
+          "Michigan Ross Casebook-2010-1.pdf": "7b25cb4b1e9b1dc37a9fa531fdac33e63252e6bb31e9a3650a2f8df4c087a927",
+          "Michigan Ross Casebook-2010-2.pdf": "b50d7ff102a9aa229476e55617bc3b0f34107517ff59ce426d93cc2b71236c3c"
+        },
+        "normalized_text_sha256": {
+          "Michigan Ross Casebook-2010-1.pdf": "a792fb234c933b5f935dd8493e4232ea3f9867e3f6e55e684884900e06d3da29",
+          "Michigan Ross Casebook-2010-2.pdf": "3ee45f44fc90a4243cc8457df3c51a83224658c92085adb012048a026296abb4"
+        }
+      },
+      "note": "Normalized texts differ: equivalence not established. This does not prove distinct editions or cases (extraction-order or minor-variant differences are possible). Both files preserved."
+    },
+    {
+      "files": [
+        "Darden_Case_Book_2018-2019.pdf",
+        "UVA Darden Casebook-2018.pdf"
+      ],
+      "candidacy_basis": "season-year label overlap (2018-19 vs 2018)",
+      "result": "text_identical",
+      "evidence": {
+        "pages": {
+          "Darden_Case_Book_2018-2019.pdf": 178,
+          "UVA Darden Casebook-2018.pdf": 178
+        },
+        "chars": {
+          "Darden_Case_Book_2018-2019.pdf": 277575,
+          "UVA Darden Casebook-2018.pdf": 277575
+        },
+        "raw_sha256": {
+          "Darden_Case_Book_2018-2019.pdf": "06e3896304b85ee01d3766fd8fd2810d368eb08e40b756cbb4723e412e622151",
+          "UVA Darden Casebook-2018.pdf": "514a226943ff1d6fceb571ccdd4d49464d250cc30e8a0781200a9a72710438ef"
+        },
+        "normalized_text_sha256": {
+          "Darden_Case_Book_2018-2019.pdf": "abf4b6a5e25cb1969ccade35c88ed9556a11848b4aa7f5419b4af5a6b0fcffd9",
+          "UVA Darden Casebook-2018.pdf": "abf4b6a5e25cb1969ccade35c88ed9556a11848b4aa7f5419b4af5a6b0fcffd9"
+        }
+      },
+      "note": "Identical normalized-text SHA256: equivalent at text level only. Text equivalence cannot certify graphics, scans or layout. Both files preserved."
+    },
+    {
+      "files": [
+        "Notre_Dame_2018.pdf",
+        "Notre Dame Mendoza Casebook-2017.pdf"
+      ],
+      "candidacy_basis": "season-year label overlap (2017-18 vs 2017)",
+      "result": "text_identical",
+      "evidence": {
+        "pages": {
+          "Notre_Dame_2018.pdf": 110,
+          "Notre Dame Mendoza Casebook-2017.pdf": 110
+        },
+        "chars": {
+          "Notre_Dame_2018.pdf": 224710,
+          "Notre Dame Mendoza Casebook-2017.pdf": 224710
+        },
+        "raw_sha256": {
+          "Notre_Dame_2018.pdf": "959001d4153b9b484616392e563d04ec65a8c84e66fd4e70d050de5c546ef8df",
+          "Notre Dame Mendoza Casebook-2017.pdf": "d276681816631a8125dc90675f5c0dbf6f63f5d29528c0fad1f572415c83f1e4"
+        },
+        "normalized_text_sha256": {
+          "Notre_Dame_2018.pdf": "9ae03d786e4abdfca1433b85e094b4e8347d4c79e7cb0d94ae90e87fbe49d579",
+          "Notre Dame Mendoza Casebook-2017.pdf": "9ae03d786e4abdfca1433b85e094b4e8347d4c79e7cb0d94ae90e87fbe49d579"
+        }
+      },
+      "note": "Identical normalized-text SHA256: equivalent at text level only. Text equivalence cannot certify graphics, scans or layout. Both files preserved."
+    },
+    {
+      "files": [
+        "Goizueta_2006.pdf",
+        "Emory Goizueta Casebook-2006.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Goizueta 2006)",
+      "result": "text_identical",
+      "evidence": {
+        "pages": {
+          "Goizueta_2006.pdf": 666,
+          "Emory Goizueta Casebook-2006.pdf": 666
+        },
+        "chars": {
+          "Goizueta_2006.pdf": 1624962,
+          "Emory Goizueta Casebook-2006.pdf": 1624962
+        },
+        "raw_sha256": {
+          "Goizueta_2006.pdf": "2efc7f1e70339fa4c04f7c05b8b1c99955d2c5e159ba449660ee0ab564b557d0",
+          "Emory Goizueta Casebook-2006.pdf": "f128679eb444a486b91c193c56d84ebd721d44bb928b04fe40834b87b3604398"
+        },
+        "normalized_text_sha256": {
+          "Goizueta_2006.pdf": "9455738178fa4d28f130ac063defcff06e616f60f389050045cee31303a2eafd",
+          "Emory Goizueta Casebook-2006.pdf": "9455738178fa4d28f130ac063defcff06e616f60f389050045cee31303a2eafd"
+        }
+      },
+      "note": "Identical normalized-text SHA256: equivalent at text level only. Text equivalence cannot certify graphics, scans or layout. Both files preserved."
+    },
+    {
+      "files": [
+        "Berkeley_Case_Book_2006.pdf",
+        "UC Berkeley HAAS Case Book-2006.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Berkeley Haas 2006)",
+      "result": "text_identical",
+      "evidence": {
+        "pages": {
+          "Berkeley_Case_Book_2006.pdf": 58,
+          "UC Berkeley HAAS Case Book-2006.pdf": 58
+        },
+        "chars": {
+          "Berkeley_Case_Book_2006.pdf": 121612,
+          "UC Berkeley HAAS Case Book-2006.pdf": 121612
+        },
+        "raw_sha256": {
+          "Berkeley_Case_Book_2006.pdf": "490c02bf2df49dd0aa837390a2a29447c1bcc84e2d076b05fe2aae93500cf3bb",
+          "UC Berkeley HAAS Case Book-2006.pdf": "603272a646fbfa1b4a22180dada4f9846e2c7471114dd72ced32a8b007421310"
+        },
+        "normalized_text_sha256": {
+          "Berkeley_Case_Book_2006.pdf": "4b493a6530d7f11476659f6d4300704c0d51e26ba000ea1a64ea7f43aeafb35b",
+          "UC Berkeley HAAS Case Book-2006.pdf": "4b493a6530d7f11476659f6d4300704c0d51e26ba000ea1a64ea7f43aeafb35b"
+        }
+      },
+      "note": "Identical normalized-text SHA256: equivalent at text level only. Text equivalence cannot certify graphics, scans or layout. Both files preserved."
+    },
+    {
+      "files": [
+        "Yale_2013.pdf",
+        "Yale Casebook-2013.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Yale 2013)",
+      "result": "text_identical",
+      "evidence": {
+        "pages": {
+          "Yale_2013.pdf": 120,
+          "Yale Casebook-2013.pdf": 120
+        },
+        "chars": {
+          "Yale_2013.pdf": 151041,
+          "Yale Casebook-2013.pdf": 151041
+        },
+        "raw_sha256": {
+          "Yale_2013.pdf": "26b62a668d35229801f9dbf9aba802b17b47a7f0a72b175ce70528850d2ca95b",
+          "Yale Casebook-2013.pdf": "f7d8fb135f431422569769d62650a4c99b915d593a984a57ad8e2b27e7cc0895"
+        },
+        "normalized_text_sha256": {
+          "Yale_2013.pdf": "9b177bc0fa7f1953e646abfe427c1f78b284784adec7f34b125aa1e345798f34",
+          "Yale Casebook-2013.pdf": "9b177bc0fa7f1953e646abfe427c1f78b284784adec7f34b125aa1e345798f34"
+        }
+      },
+      "note": "Identical normalized-text SHA256: equivalent at text level only. Text equivalence cannot certify graphics, scans or layout. Both files preserved."
+    },
+    {
+      "files": [
+        "ESADE_2011.pdf",
+        "ESADE Casebook-2011.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (ESADE 2011)",
+      "result": "text_identical",
+      "evidence": {
+        "pages": {
+          "ESADE_2011.pdf": 108,
+          "ESADE Casebook-2011.pdf": 108
+        },
+        "chars": {
+          "ESADE_2011.pdf": 246626,
+          "ESADE Casebook-2011.pdf": 246626
+        },
+        "raw_sha256": {
+          "ESADE_2011.pdf": "9a557014cf66ca6ee4c5f66cf7512aad85ed4dd5022c5fbf4cbe531363943df3",
+          "ESADE Casebook-2011.pdf": "353cbee3a695ecda25bee080d352e28f183fc1548addbaf707aa234a1a0c624b"
+        },
+        "normalized_text_sha256": {
+          "ESADE_2011.pdf": "1c9bf3c33cf83acfe81c1ecae3f6f95d62f5d4a2398ed31adfaaf912fafc3d45",
+          "ESADE Casebook-2011.pdf": "1c9bf3c33cf83acfe81c1ecae3f6f95d62f5d4a2398ed31adfaaf912fafc3d45"
+        }
+      },
+      "note": "Identical normalized-text SHA256: equivalent at text level only. Text equivalence cannot certify graphics, scans or layout. Both files preserved."
+    },
+    {
+      "files": [
+        "Columbia_Business_School_Case_Book_2006.pdf",
+        "Columbia Casebook-2006.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Columbia 2006)",
+      "result": "text_differs",
+      "evidence": {
+        "pages": {
+          "Columbia_Business_School_Case_Book_2006.pdf": 89,
+          "Columbia Casebook-2006.pdf": 89
+        },
+        "chars": {
+          "Columbia_Business_School_Case_Book_2006.pdf": 180689,
+          "Columbia Casebook-2006.pdf": 181130
+        },
+        "raw_sha256": {
+          "Columbia_Business_School_Case_Book_2006.pdf": "b14ceb0a5e35a41d2ca80e2d9df937a77991394bb538429f4d423e49e64a4320",
+          "Columbia Casebook-2006.pdf": "3d5478e585127770e6a97ec861da9950c53613d7ca741df926a936c49f56d276"
+        },
+        "normalized_text_sha256": {
+          "Columbia_Business_School_Case_Book_2006.pdf": "e8008fbd3f95121f7946466481f9e57d8510e98d93ffe984533480f87bff7859",
+          "Columbia Casebook-2006.pdf": "88a92c803ef0848e33012b3053079c0eca6c4fb1d530d8f31aa84f914c376ea2"
+        }
+      },
+      "note": "Normalized texts differ: equivalence not established. This does not prove distinct editions or cases (extraction-order or minor-variant differences are possible). Both files preserved."
+    },
+    {
+      "files": [
+        "Johnson_2003.pdf",
+        "Cornell Johnson Casebook-2003.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Johnson 2003)",
+      "result": "text_differs",
+      "evidence": {
+        "pages": {
+          "Johnson_2003.pdf": 97,
+          "Cornell Johnson Casebook-2003.pdf": 99
+        },
+        "chars": {
+          "Johnson_2003.pdf": 168641,
+          "Cornell Johnson Casebook-2003.pdf": 168955
+        },
+        "raw_sha256": {
+          "Johnson_2003.pdf": "cd7d21d4cb1ba818b806e5595681a461061bc054c8bfc36fc96d5fc4cd502189",
+          "Cornell Johnson Casebook-2003.pdf": "63b82530f3c4b98705ed4cae51bcd50d20868ee5f85ff43e123572bb81a151ee"
+        },
+        "normalized_text_sha256": {
+          "Johnson_2003.pdf": "e2370b584ff34b10a6c44a6581ce39f0af13a62cccdd116f45a1e265099ac0a8",
+          "Cornell Johnson Casebook-2003.pdf": "3c67b0094dbed554e4c550fb36e3dcae26c79bf5c3c007a0cb039e2f39cf4145"
+        }
+      },
+      "note": "Normalized texts differ: equivalence not established. This does not prove distinct editions or cases (extraction-order or minor-variant differences are possible). Both files preserved."
+    },
+    {
+      "files": [
+        "London_Business_School_2013.pdf",
+        "London Casebook-2013.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (LBS 2013)",
+      "result": "text_differs",
+      "evidence": {
+        "pages": {
+          "London_Business_School_2013.pdf": 89,
+          "London Casebook-2013.pdf": 89
+        },
+        "chars": {
+          "London_Business_School_2013.pdf": 317077,
+          "London Casebook-2013.pdf": 317739
+        },
+        "raw_sha256": {
+          "London_Business_School_2013.pdf": "84d2ed62259ff5be0bf8040877f6fa1a4b314bbc41c61e834046b18be46278c0",
+          "London Casebook-2013.pdf": "c45e5030a6e4a4feb30a9f753f281abbf32d40daec166f21765eee8ca221edca"
+        },
+        "normalized_text_sha256": {
+          "London_Business_School_2013.pdf": "af2015b4dbdb96e711c1c4df42b199d8619551262509c1893de4addcea4c1bd7",
+          "London Casebook-2013.pdf": "adf81b6078cf915093b2f1aa05705e09a5c8715ced0394dbf130b9a23a7e2a66"
+        }
+      },
+      "note": "Normalized texts differ: equivalence not established. This does not prove distinct editions or cases (extraction-order or minor-variant differences are possible). Both files preserved."
+    },
+    {
+      "files": [
+        "London_Business_School_Case_Book_2007-2008.pdf",
+        "London Casebook-2008.pdf"
+      ],
+      "candidacy_basis": "season-year label overlap (2007-08 vs 2008)",
+      "result": "text_differs",
+      "evidence": {
+        "pages": {
+          "London_Business_School_Case_Book_2007-2008.pdf": 157,
+          "London Casebook-2008.pdf": 157
+        },
+        "chars": {
+          "London_Business_School_Case_Book_2007-2008.pdf": 384977,
+          "London Casebook-2008.pdf": 390689
+        },
+        "raw_sha256": {
+          "London_Business_School_Case_Book_2007-2008.pdf": "da2be7743e6d07c88ad545a6bb31f0ae686e2e8616335bca42e65ecb6c860021",
+          "London Casebook-2008.pdf": "960a7b4c09cd765659ef0cd58a9afb65523117ccde0bd3c5158168b2e90a0c2e"
+        },
+        "normalized_text_sha256": {
+          "London_Business_School_Case_Book_2007-2008.pdf": "f5cde0d50f03eecb17ea2941ebbd36002c811df02673958eac8c7f010775606d",
+          "London Casebook-2008.pdf": "f57a8e69bd76c7259cdd075bbf0a67687d9d5ad31c3cab37f83e1273bc25c724"
+        }
+      },
+      "note": "Normalized texts differ: equivalence not established. This does not prove distinct editions or cases (extraction-order or minor-variant differences are possible). Both files preserved."
+    },
+    {
+      "files": [
+        "NYU_Stern_Case_Book_2015-2016.pdf",
+        "NYU Stern Casebook-2015.pdf"
+      ],
+      "candidacy_basis": "season-year label overlap (2015-16 vs 2015)",
+      "result": "text_differs",
+      "evidence": {
+        "pages": {
+          "NYU_Stern_Case_Book_2015-2016.pdf": 157,
+          "NYU Stern Casebook-2015.pdf": 157
+        },
+        "chars": {
+          "NYU_Stern_Case_Book_2015-2016.pdf": 355956,
+          "NYU Stern Casebook-2015.pdf": 355822
+        },
+        "raw_sha256": {
+          "NYU_Stern_Case_Book_2015-2016.pdf": "b91356b4254ffc2d4b85a41a528b1ded6c6eacceb10c501c1a890ed1e3d2cb7c",
+          "NYU Stern Casebook-2015.pdf": "92ccfe4a4fab1f1a9ae253a6f6f20f0981ca5df7adb08c2020e6d19e46d79a40"
+        },
+        "normalized_text_sha256": {
+          "NYU_Stern_Case_Book_2015-2016.pdf": "174a2b6bcd86d96800559c485dcea6b5e4015799b267f0097527e90a2c5d326e",
+          "NYU Stern Casebook-2015.pdf": "304a48a489544b2a22b9c84d27136ee31197416a0a6ca22307f230d015c0a27d"
+        }
+      },
+      "note": "Normalized texts differ: equivalence not established. This does not prove distinct editions or cases (extraction-order or minor-variant differences are possible). Both files preserved."
+    },
+    {
+      "files": [
+        "Tuck_Case_Book_2009-2010.pdf",
+        "Dartmouth Tuck Casebook-2009.pdf"
+      ],
+      "candidacy_basis": "season-year label overlap (2009-10 vs 2009)",
+      "result": "text_differs",
+      "evidence": {
+        "pages": {
+          "Tuck_Case_Book_2009-2010.pdf": 120,
+          "Dartmouth Tuck Casebook-2009.pdf": 120
+        },
+        "chars": {
+          "Tuck_Case_Book_2009-2010.pdf": 193235,
+          "Dartmouth Tuck Casebook-2009.pdf": 193248
+        },
+        "raw_sha256": {
+          "Tuck_Case_Book_2009-2010.pdf": "59680d7ce39826517d6e6f8b07e1246dce4a2c43f7b440d41c1be070914cde9f",
+          "Dartmouth Tuck Casebook-2009.pdf": "749f32f3a737fa752d4ce7fcc61d7a6d871c9dc42071584b9ed58c43bb6eda1e"
+        },
+        "normalized_text_sha256": {
+          "Tuck_Case_Book_2009-2010.pdf": "7df958b41ed26c4328618e8564821a83f002ff6354b6e32d39ec0d217e338ecb",
+          "Dartmouth Tuck Casebook-2009.pdf": "13eaf19993c22619e90ee44f1c209e477edb6741475368e7d299199c288cb289"
+        }
+      },
+      "note": "Normalized texts differ: equivalence not established. This does not prove distinct editions or cases (extraction-order or minor-variant differences are possible). Both files preserved."
+    },
+    {
+      "files": [
+        "Columbia_2007.pdf",
+        "Columbia Casebook-2007.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Columbia 2007)",
+      "result": "text_differs",
+      "evidence": {
+        "pages": {
+          "Columbia_2007.pdf": 47,
+          "Columbia Casebook-2007.pdf": 122
+        },
+        "chars": {
+          "Columbia_2007.pdf": 87295,
+          "Columbia Casebook-2007.pdf": 239651
+        },
+        "raw_sha256": {
+          "Columbia_2007.pdf": "9778d2a84eb93a13606cec2bacf0ba5321879f0f9d4a7a91514f5094fc4111d6",
+          "Columbia Casebook-2007.pdf": "e6d120cff47c862349e5d70eaae07bb57958e4503af1a1fe00f8cca8d09eaa3b"
+        },
+        "normalized_text_sha256": {
+          "Columbia_2007.pdf": "73d2943166bb93c78ba4912c11f9b250cbe7aedcebc690f87c3d9ce3c791f51c",
+          "Columbia Casebook-2007.pdf": "d137b4a9b4d2ca09dbf14399ab698528ba488812621be076096d9fcc5c29e745"
+        }
+      },
+      "note": "Normalized texts differ: equivalence not established. This does not prove distinct editions or cases (extraction-order or minor-variant differences are possible). Both files preserved."
+    },
+    {
+      "files": [
+        "MIT Sloan Casebook-2015.pdf",
+        "Sloan_2015.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (MIT Sloan 2015)",
+      "result": "text_differs",
+      "evidence": {
+        "pages": {
+          "MIT Sloan Casebook-2015.pdf": 44,
+          "Sloan_2015.pdf": 46
+        },
+        "chars": {
+          "MIT Sloan Casebook-2015.pdf": 97314,
+          "Sloan_2015.pdf": 69508
+        },
+        "raw_sha256": {
+          "MIT Sloan Casebook-2015.pdf": "c490cfe5779b1346b53a3387f83aa27405b7bb7d2610c3a6aceb2114f633d671",
+          "Sloan_2015.pdf": "30fe0978c93d33a51b1afeb8f0924bc5ce0712b718416e9b303d20267f051df3"
+        },
+        "normalized_text_sha256": {
+          "MIT Sloan Casebook-2015.pdf": "4218bb0596c3771c0938713a9dfda7cec770aa89c3de7872109a444868e2bbfb",
+          "Sloan_2015.pdf": "c71e0608c15d37b473cfc9363410a22fd1054896c0af4b8bb64b0530705d4242"
+        }
+      },
+      "note": "Normalized texts differ: equivalence not established. This does not prove distinct editions or cases (extraction-order or minor-variant differences are possible). Both files preserved."
+    },
+    {
+      "files": [
+        "Duke Fuqua Casebook-2014 1.pdf",
+        "Duke Fuqua Casebook-2014 2.pdf"
+      ],
+      "candidacy_basis": "same school+edition label (Fuqua 2014, files '1' and '2')",
+      "result": "text_differs",
+      "evidence": {
+        "pages": {
+          "Duke Fuqua Casebook-2014 1.pdf": 256,
+          "Duke Fuqua Casebook-2014 2.pdf": 248
+        },
+        "chars": {
+          "Duke Fuqua Casebook-2014 1.pdf": 344738,
+          "Duke Fuqua Casebook-2014 2.pdf": 327998
+        },
+        "raw_sha256": {
+          "Duke Fuqua Casebook-2014 1.pdf": "c402814559b94515943d25ef01427442b48efbc85c54ffb0ab44aec9d58aea5e",
+          "Duke Fuqua Casebook-2014 2.pdf": "5ebd6b7ed416d49b61a28424557c6979b2abc87a2e1999137f0ef449a5f365a8"
+        },
+        "normalized_text_sha256": {
+          "Duke Fuqua Casebook-2014 1.pdf": "f2c14f20945c96ac823efbeb30ab302a314457405bfd03749e9cb0dffcd8652a",
+          "Duke Fuqua Casebook-2014 2.pdf": "4f288c738b91706ebb06f932b8d6dfb86fb2771688833b3197828098c2b704d6"
+        }
+      },
+      "note": "Normalized texts differ: equivalence not established. This does not prove distinct editions or cases (extraction-order or minor-variant differences are possible). Both files preserved."
+    }
+  ],
+  "entries": [
+    {
+      "source_page": "strategycase",
+      "school": "Yale (Graduate Consulting Club / SOM)",
+      "edition_as_listed": "2024",
+      "section": "Tier 1 #1",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/YGCC_casebook_2024.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "YGCC_casebook_2024.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "MIT Sloan",
+      "edition_as_listed": "2020",
+      "section": "Tier 1 #2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Sloan_2020.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Sloan_2020.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Kellogg (Northwestern)",
+      "edition_as_listed": "2020",
+      "section": "Tier 1 #3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Kellogg-Casebook-2020.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Kellogg Casebook_2020.pdf"
+      ],
+      "match_basis": "year+school; source name 'Kellogg-Casebook-2020' vs local 'Kellogg Casebook_2020' (hyphen/underscore variant)",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "ESADE",
+      "edition_as_listed": "2025",
+      "section": "Tier 1 #4",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/ESADE_2025.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "ESADE_2025.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Darden (UVA)",
+      "edition_as_listed": "2025 = 2024-25 edition",
+      "section": "Tier 1 #5",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Darden-Casebook-2024-2025.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Darden Casebook 2024-2025.pdf"
+      ],
+      "match_basis": "season-year normalization: page ranks it as 'Darden 2025', linked file and local file are the 2024-25 edition",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Tuck (Dartmouth)",
+      "edition_as_listed": "2024",
+      "section": "Tier 1 #6",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Tuck_2024.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Tuck_2024.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "UNSW (Curious Consultant / UCC)",
+      "edition_as_listed": "2024",
+      "section": "Tier 1 #7",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/UCC-Casebook.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "UCC-Casebook 2024.pdf"
+      ],
+      "match_basis": "year+school; source name 'UCC-Casebook' vs local 'UCC-Casebook 2024'",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Darden (UVA)",
+      "edition_as_listed": "2024 = 2023-24 edition",
+      "section": "Tier 1 #8",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Darden-Casebook-2023-2024.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Darden Casebook 2023-2024.pdf"
+      ],
+      "match_basis": "season-year normalization",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Columbia Business School",
+      "edition_as_listed": "2021",
+      "section": "Tier 1 #9",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Columbia_2021.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Columbia_2021.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "INSEAD",
+      "edition_as_listed": "2021",
+      "section": "Tier 1 #10",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/INSEAD_2021.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "INSEAD_2021.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Chicago Booth",
+      "edition_as_listed": "2025",
+      "section": "Tier 1 #11",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Booth_2025.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Booth_2025.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "NYU Stern",
+      "edition_as_listed": "2024",
+      "section": "Tier 1 #12",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Stern_2024.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Stern_2024.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": "page notes this edition 'carries a 2023 copyright' (2023-24 season)"
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Wharton (UPenn)",
+      "edition_as_listed": "2025 = 2024-25 edition",
+      "section": "Tier 1 #13",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Wharton-Casebook-2024-2025.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Wharton Casebook 2024-2025.pdf"
+      ],
+      "match_basis": "season-year normalization",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Wharton (UPenn)",
+      "edition_as_listed": "2017",
+      "section": "Tier 1 #14",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Wharton_Case_Book_-_2017.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Wharton_Case_Book_2017.pdf",
+        "UPenn Wharton Casebook-2017.pdf"
+      ],
+      "match_basis": "year+school; two local candidates with identical normalized-text SHA256 (see duplicate_candidates)",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Ross (Michigan)",
+      "edition_as_listed": "2025 = 2024-25 edition",
+      "section": "Tier 1 #15",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Ross-Casebook-2024-2025.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Ross Casebook 2024-2025.pdf"
+      ],
+      "match_basis": "season-year normalization",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Duke Fuqua",
+      "edition_as_listed": "2024",
+      "section": "Tier 1 #16",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Fuqua_2024.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Fuqua_2024.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Bauer (University of Houston)",
+      "edition_as_listed": "2025",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Bauer_2025.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Bauer_2025.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "HKUST Business School",
+      "edition_as_listed": "2024",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/HKUST_2024.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "HKUST_2024.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Cornell Johnson",
+      "edition_as_listed": "2021",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Johnson_2021.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Johnson_2021.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "UCLA Anderson",
+      "edition_as_listed": "2020",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Anderson_2020.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Anderson_2020.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Ross (Michigan)",
+      "edition_as_listed": "2019",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Ross_2019.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Ross_2019.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": "1,093-page volume"
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Berkeley Haas (UC Berkeley)",
+      "edition_as_listed": "2019",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Haas_2019.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Haas_2019.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Queen's Smith (Canada)",
+      "edition_as_listed": "2019",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Queens_2019.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Queens_2019.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Darden (UVA)",
+      "edition_as_listed": "2019 = 2018-19 edition",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Darden_Case_Book_-_2018-2019.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Darden_Case_Book_2018-2019.pdf",
+        "UVA Darden Casebook-2018.pdf"
+      ],
+      "match_basis": "season-year normalization; two local candidates with identical normalized-text SHA256 (see duplicate_candidates)",
+      "notes": "Soreno (checked 2026-10-28) reports this edition is also hosted as a public PDF on a University of Virginia site (economics.virginia.edu) - primary host exists per that capture"
+    },
+    {
+      "source_page": "strategycase",
+      "school": "NYU Stern",
+      "edition_as_listed": "2018",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Stern_2018.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "NYU Stern Casebook-2018.pdf"
+      ],
+      "match_basis": "year+school; source name 'Stern_2018' vs local 'NYU Stern Casebook-2018'",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "McCombs (UT Austin)",
+      "edition_as_listed": "2018",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/McCombs_2018.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "McCombs_2018.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Notre Dame Mendoza",
+      "edition_as_listed": "2018 = 2017-18 edition",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Notre_Dame_2018.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Notre_Dame_2018.pdf",
+        "Notre Dame Mendoza Casebook-2017.pdf"
+      ],
+      "match_basis": "season-year normalization; two local candidates with identical normalized-text SHA256 (see duplicate_candidates)",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "MIT Sloan",
+      "edition_as_listed": "2015",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Sloan_2015.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Sloan_2015.pdf",
+        "MIT Sloan Casebook-2015.pdf"
+      ],
+      "match_basis": "exact filename for Sloan_2015.pdf; second local file with the same edition label is not text-equivalent (normalized texts differ) - duplicate candidacy unresolved, see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "NYU Stern",
+      "edition_as_listed": "2016 = 2015-16 edition",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/NYU_Stern_Case_Book_-_2015-2016.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "NYU_Stern_Case_Book_2015-2016.pdf",
+        "NYU Stern Casebook-2015.pdf"
+      ],
+      "match_basis": "season-year normalization; two local candidates, normalized texts differ by a small margin (157p each, chars differ by 134) - candidacy unresolved, see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "London Business School",
+      "edition_as_listed": "2013",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/London_Business_School_2013.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "London_Business_School_2013.pdf",
+        "London Casebook-2013.pdf"
+      ],
+      "match_basis": "year+school; two local candidates (89p each) with differing normalized texts - candidacy unresolved, see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Yale SOM",
+      "edition_as_listed": "2013",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Yale_2013.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Yale_2013.pdf",
+        "Yale Casebook-2013.pdf"
+      ],
+      "match_basis": "exact filename for Yale_2013.pdf; second copy is text-equivalent (identical normalized-text SHA256; raw file sha256 differs) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Harvard Business School",
+      "edition_as_listed": "2012",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Harvard_Business_School_2012.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "uncertain",
+      "local_candidates": [
+        "Harvard HBS Casebook-2011.pdf"
+      ],
+      "match_basis": "nearest local file is labeled 2011; page claims a 2012 'HBS Case Interview Guide'",
+      "notes": "year mismatch of one; unverified whether the local 2011 file is the same document the page re-dates as 2012. No local file carries the 2012 label. Soreno: no casebook on hbs.edu (club members only per StrategyCase)."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Kellogg (Northwestern)",
+      "edition_as_listed": "2012",
+      "section": "Tier 2",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Kellogg_Case_Book_-2012.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Kellogg_Case_Book_2012.pdf",
+        "Northwestern Kellogg Casebook-2012.pdf"
+      ],
+      "match_basis": "year+school; two local candidates with identical normalized-text SHA256 (see duplicate_candidates); local Kellogg_Case_Book_2012.pdf had PDF syntax warnings during text extraction",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Duke Fuqua",
+      "edition_as_listed": "2019 = 2018-19 edition",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Fuqua_2018.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Fuqua_2018.pdf"
+      ],
+      "match_basis": "exact filename; page's '2019' label and file's '2018' label denote the same 2018-19 season edition (MasterTheCase lists the same season as '2019')",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Gies (Illinois)",
+      "edition_as_listed": "2016 = 2015-16 edition",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Illinois_Case_Book_-_2015-2016.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Illinois_Case_Book_2015-2016.pdf"
+      ],
+      "match_basis": "season-year normalization",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "ESADE",
+      "edition_as_listed": "2011",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/ESADE_2011.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "ESADE_2011.pdf",
+        "ESADE Casebook-2011.pdf"
+      ],
+      "match_basis": "exact filename for ESADE_2011.pdf; second copy is text-equivalent (identical normalized-text SHA256; byte sizes differ) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "INSEAD",
+      "edition_as_listed": "2011",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/INSEAD_2011.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "INSEAD Case Book 2011.pdf"
+      ],
+      "match_basis": "year+school; local name 'INSEAD Case Book 2011' vs source 'INSEAD_2011'",
+      "notes": "title+year only; content identity vs the aggregator copy not hash-verified"
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Ross (Michigan)",
+      "edition_as_listed": "2010",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Ross_2010.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Ross_2010.pdf",
+        "Michigan Ross Casebook-2010-1.pdf"
+      ],
+      "match_basis": "exact filename for Ross_2010.pdf; second local copy is text-equivalent (identical normalized-text SHA256) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Tuck (Dartmouth)",
+      "edition_as_listed": "2010 = 2009-10 edition",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Tuck_Case_Book_-_2009-2010.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Tuck_Case_Book_2009-2010.pdf",
+        "Dartmouth Tuck Casebook-2009.pdf"
+      ],
+      "match_basis": "season-year normalization; candidacy unresolved: normalized texts differ by a small margin (120p each, chars differ by 13) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Columbia Business School",
+      "edition_as_listed": "2007",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Columbia_2007.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Columbia_2007.pdf",
+        "Columbia Casebook-2007.pdf"
+      ],
+      "match_basis": "exact filename for Columbia_2007.pdf",
+      "notes": "two local 2007-labeled candidates are not text-equivalent (47p vs 122p; normalized texts differ); their relationship is unverified. Which one the aggregator hosts is unverified - see duplicate_candidates."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "London Business School",
+      "edition_as_listed": "2008 = 2007-08 edition",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/London_Business_School_Case_Book_-_2007-2008.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "London_Business_School_Case_Book_2007-2008.pdf",
+        "London Casebook-2008.pdf"
+      ],
+      "match_basis": "season-year normalization; candidacy unresolved (157p each; normalized texts differ) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Berkeley Haas (UC Berkeley)",
+      "edition_as_listed": "2006",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Berkeley_Case_Book_-_2006-1.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Berkeley_Case_Book_2006.pdf",
+        "UC Berkeley HAAS Case Book-2006.pdf"
+      ],
+      "match_basis": "year+school; two local candidates with identical normalized-text SHA256 (see duplicate_candidates)",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Columbia Business School",
+      "edition_as_listed": "2006",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Columbia_Business_School_Case_Book_-_2006.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Columbia_Business_School_Case_Book_2006.pdf",
+        "Columbia Casebook-2006.pdf"
+      ],
+      "match_basis": "exact filename for Columbia_Business_School_Case_Book_2006.pdf; candidacy unresolved (89p each, chars differ by 441; normalized texts differ) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Emory Goizueta",
+      "edition_as_listed": "2006",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Goizueta_2006.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Goizueta_2006.pdf",
+        "Emory Goizueta Casebook-2006.pdf"
+      ],
+      "match_basis": "exact filename for Goizueta_2006.pdf; text-equivalent pair (identical normalized-text SHA256, 666p) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Chicago Booth",
+      "edition_as_listed": "2005",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Booth_2005.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Booth_2005.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Cornell Johnson",
+      "edition_as_listed": "2003",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Johnson_2003.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Johnson_2003.pdf",
+        "Cornell Johnson Casebook-2003.pdf"
+      ],
+      "match_basis": "exact filename for Johnson_2003.pdf; candidacy unresolved (97p vs 99p; normalized texts differ) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Australian Graduate School of Management (AGSM)",
+      "edition_as_listed": "2002",
+      "section": "Tier 3",
+      "source_url": "https://strategycase.com/wp-content/uploads/2026/05/Australian_Graduate_School_of_Management_2002.pdf",
+      "host_kind": "aggregator_direct_pdf",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Australian_Graduate_School_of_Management_2002.pdf"
+      ],
+      "match_basis": "exact filename",
+      "notes": ""
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Darden (UVA)",
+      "edition_as_listed": "2025-26",
+      "section": "New 2025-26 editions",
+      "source_url": "https://www.slideshare.net/slideshow/comprehensive-darden-2025-2026-business-casebook-for-consulting-preparation/289081823",
+      "host_kind": "slideshare",
+      "status": "source_reported_gate",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "Page states it is not in the ZIP because SlideShare 'may ask you to log in'. Claimed 166 pages / 15 cases (8 new) - source claim, not verified. Direct access not tested by this audit."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "NYU Stern",
+      "edition_as_listed": "2025-26",
+      "section": "New 2025-26 editions",
+      "source_url": "https://www.scribd.com/document/959488784/Copy-of-NYU-Stern-Casebook-2025-26",
+      "host_kind": "scribd",
+      "status": "source_reported_gate",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "Page's stated ZIP-exclusion reason: these hosts 'may ask you to log in'. Page claims 336 pages, replaces the 2023-24 edition. Newest local Stern is Stern_2024.pdf (2023-24). Direct access not tested by this audit."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Columbia Business School",
+      "edition_as_listed": "2025",
+      "section": "New 2025-26 editions",
+      "source_url": "https://www.scribd.com/document/969403250/CBS-Casebook-2025",
+      "host_kind": "scribd",
+      "status": "source_reported_gate",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "Page's stated ZIP-exclusion reason: these hosts 'may ask you to log in'. Page claims 315 pages, published by CBS MCA. Newest local Columbia is 2021. Direct access not tested by this audit."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "Duke Fuqua",
+      "edition_as_listed": "2025-26",
+      "section": "New 2025-26 editions",
+      "source_url": "https://studylib.net/doc/28045761/fuqua-casebook-2025-2026",
+      "host_kind": "studylib",
+      "status": "source_reported_gate",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "Page's stated ZIP-exclusion reason: these hosts 'may ask you to log in'. Direct access not tested by this audit. Newest local Fuqua is 2024."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "IIM Ahmedabad",
+      "edition_as_listed": "Consult Prep Book 2025-26 (12th ed.)",
+      "section": "Indian B-schools",
+      "source_url": "https://www.scribd.com/document/916537188/IIMA-Consult-Prep-Book-Case-Book-2025-26",
+      "host_kind": "scribd",
+      "status": "access_unverified",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "Hosted on Scribd; the capture makes no gate statement for this entry and direct access was not tested. Page claims 389 pages, 108 cases, 25 guesstimates, 27 industry reports - source claim, not verified."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "ISB",
+      "edition_as_listed": "Consulting Prep Casebook 2025-26",
+      "section": "Indian B-schools",
+      "source_url": "https://www.scribd.com/document/957419707/ISB-Casebook-2025-2026",
+      "host_kind": "scribd",
+      "status": "access_unverified",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "Hosted on Scribd; the capture makes no gate statement for this entry and direct access was not tested. Page claims 183 pages - source claim, not verified."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "FMS Delhi",
+      "edition_as_listed": "Consulting Casebook 2025-26",
+      "section": "Indian B-schools",
+      "source_url": "https://sites.google.com/fms.edu/conclubfms/casebook/casebook-archive",
+      "host_kind": "school_site (Google Sites)",
+      "status": "primary_source_available",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "FMS club hosts every edition since 2020-21 on its own site, free to view (seen in ../research/fms.json capture of the archive page)."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "FMS Delhi",
+      "edition_as_listed": "Consulting Casebook 2024-25",
+      "section": "Indian B-schools",
+      "source_url": "https://sites.google.com/fms.edu/conclubfms/casebook/casebook-archive",
+      "host_kind": "school_site (Google Sites)",
+      "status": "primary_source_available",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "Listed on the club's own archive page (../research/fms.json capture)."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "FMS Delhi",
+      "edition_as_listed": "Consulting Casebook 2023-24",
+      "section": "Indian B-schools",
+      "source_url": "https://sites.google.com/fms.edu/conclubfms/casebook/casebook-archive",
+      "host_kind": "school_site (Google Sites)",
+      "status": "primary_source_available",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "Listed on the club's own archive page (../research/fms.json capture)."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "FMS Delhi",
+      "edition_as_listed": "Consulting Casebook 2021-22",
+      "section": "Indian B-schools",
+      "source_url": "https://sites.google.com/fms.edu/conclubfms/casebook/casebook-archive",
+      "host_kind": "school_site (Google Sites)",
+      "status": "primary_source_available",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "Listed on the club's own archive page (../research/fms.json capture)."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "FMS Delhi",
+      "edition_as_listed": "Consulting Casebook 2020-21",
+      "section": "Indian B-schools",
+      "source_url": "https://sites.google.com/fms.edu/conclubfms/casebook/casebook-archive",
+      "host_kind": "school_site (Google Sites)",
+      "status": "primary_source_available",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "Listed on the club's own archive page (../research/fms.json capture)."
+    },
+    {
+      "source_page": "strategycase",
+      "school": "IIM Lucknow",
+      "edition_as_listed": "CSC Finals Casebook 2025",
+      "section": "Indian B-schools",
+      "source_url": "https://www.slideshare.net/slideshow/csc-iim-lucknow-finals-casebook-2025-1-pdf/285938034",
+      "host_kind": "slideshare",
+      "status": "access_unverified",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "Hosted on SlideShare; the capture makes no gate statement for this entry and direct access was not tested. Page claims 218 pages - source claim, not verified. Page also notes IIM Bangalore (ICON) and IIM Calcutta publish casebooks but have no current public edition."
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Wharton (UPenn)",
+      "edition_as_listed": "2007",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "UPenn Wharton Casebook-2007.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Wharton (UPenn)",
+      "edition_as_listed": "2008",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "UPenn Wharton Casebook-2008.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Wharton (UPenn)",
+      "edition_as_listed": "2009",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "UPenn Wharton Casebook-2009.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Wharton (UPenn)",
+      "edition_as_listed": "2010",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "UPenn Wharton Casebook-2010.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Wharton (UPenn)",
+      "edition_as_listed": "NEW 2017",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "UPenn Wharton Casebook-2017.pdf",
+        "Wharton_Case_Book_2017.pdf"
+      ],
+      "match_basis": "year+school; two local candidates with identical normalized-text SHA256 (see duplicate_candidates)",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Ross (Michigan)",
+      "edition_as_listed": "2008",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Michigan Ross Casebook-2008.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Ross (Michigan)",
+      "edition_as_listed": "2009",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Michigan Ross Casebook-2009.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Ross (Michigan)",
+      "edition_as_listed": "2010",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Michigan Ross Casebook-2010-1.pdf",
+        "Michigan Ross Casebook-2010-2.pdf",
+        "Ross_2010.pdf"
+      ],
+      "match_basis": "year+school; local holds three 2010-labeled files: Ross_2010.pdf is text-identical to Michigan Ross Casebook-2010-1.pdf, while 2010-2 differs from both (see duplicate_candidates)",
+      "notes": "page lists a single 2010 entry; which file it maps to is unverified"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Ross (Michigan)",
+      "edition_as_listed": "2011",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Michigan Ross Casebook-2011.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Ross (Michigan)",
+      "edition_as_listed": "NEW 2019",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Ross_2019.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Chicago Booth",
+      "edition_as_listed": "2005",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Booth_2005.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Chicago Booth",
+      "edition_as_listed": "2007",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local Booth file labeled 2007 (local Booth: 2000, 2003, 2005, 2025)"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Chicago Booth",
+      "edition_as_listed": "2009",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local candidate"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Chicago Booth",
+      "edition_as_listed": "2010",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local candidate"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Chicago Booth",
+      "edition_as_listed": "2012",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local candidate"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Kellogg (Northwestern)",
+      "edition_as_listed": "2011",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Northwestern Kellogg Casebook-2011.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Kellogg (Northwestern)",
+      "edition_as_listed": "2012",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Northwestern Kellogg Casebook-2012.pdf",
+        "Kellogg_Case_Book_2012.pdf"
+      ],
+      "match_basis": "year+school; two local candidates with identical normalized-text SHA256 (see duplicate_candidates)",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Kellogg (Northwestern)",
+      "edition_as_listed": "2014",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Northwestern Kellogg Casebook-2014.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Kellogg (Northwestern)",
+      "edition_as_listed": "2016",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "source_reported_gate",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local candidate. Soreno (checked 2026-10-28) reports a 2016 edition sits on a Northwestern web server but its cover states it is for KCC members only. Gate is source-reported; direct access not tested by this audit."
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Kellogg (Northwestern)",
+      "edition_as_listed": "NEW 2020",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Kellogg Casebook_2020.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Columbia Business School",
+      "edition_as_listed": "2002",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Columbia Casebook-2002.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Columbia Business School",
+      "edition_as_listed": "2006",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Columbia Casebook-2006.pdf",
+        "Columbia_Business_School_Case_Book_2006.pdf"
+      ],
+      "match_basis": "year+school; candidacy unresolved (normalized texts differ) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Columbia Business School",
+      "edition_as_listed": "2007",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Columbia Casebook-2007.pdf",
+        "Columbia_2007.pdf"
+      ],
+      "match_basis": "year+school; two local 2007-labeled files are not text-equivalent (122p and 47p); relationship unverified - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Columbia Business School",
+      "edition_as_listed": "2017",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local Columbia between 2008 and 2021"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Columbia Business School",
+      "edition_as_listed": "NEW 2021",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Columbia_2021.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Duke Fuqua",
+      "edition_as_listed": "2011",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Duke Fuqua Casebook-2011.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Duke Fuqua",
+      "edition_as_listed": "2015",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local Fuqua 2015 (local Fuqua: 2001, 2005, 2008, 2009, 2010, 2011, 2012 pptx, 2013 pptx, 2014x2, 2018, 2024)"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Duke Fuqua",
+      "edition_as_listed": "2017",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local candidate"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Duke Fuqua",
+      "edition_as_listed": "2019",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Fuqua_2018.pdf"
+      ],
+      "match_basis": "season-year: same 2018-19 edition StrategyCase links as Fuqua_2018.pdf",
+      "notes": "label differs across sources (2018 vs 2019) for the same season edition"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Duke Fuqua",
+      "edition_as_listed": "NEW 2022",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local Fuqua between 2018-19 and 2024"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "NYU Stern",
+      "edition_as_listed": "2008",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "NYU Stern Casebook-2008.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "NYU Stern",
+      "edition_as_listed": "2016",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "NYU_Stern_Case_Book_2015-2016.pdf",
+        "NYU Stern Casebook-2015.pdf"
+      ],
+      "match_basis": "season-year: 2016 label maps to the 2015-16 edition; candidacy unresolved (normalized texts differ) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "NYU Stern",
+      "edition_as_listed": "2017",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local Stern 2017 (local Stern: 2000 doc, 2006, 2007, 2008, 2013, 2015, 2018, 2023, 2024)"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "NYU Stern",
+      "edition_as_listed": "2018",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "NYU Stern Casebook-2018.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "NYU Stern",
+      "edition_as_listed": "NEW 2021",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local Stern between NYU Stern Casebook-2018.pdf and NYU Stern Casebook-2023.pdf"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Darden (UVA)",
+      "edition_as_listed": "2009",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "uncertain",
+      "local_candidates": [
+        "UVA Darden Casebook-2008.pdf"
+      ],
+      "match_basis": "possible season overlap: local 2008 file may be the 2008-09 edition the page labels '2009'",
+      "notes": "filename alone cannot confirm; season boundaries unverified"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Darden (UVA)",
+      "edition_as_listed": "2013",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "uncertain",
+      "local_candidates": [
+        "UVA Darden Casebook-2012.pdf"
+      ],
+      "match_basis": "possible season overlap: local 2012 file may be the 2012-13 edition the page labels '2013'",
+      "notes": "filename alone cannot confirm"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Darden (UVA)",
+      "edition_as_listed": "2015",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local Darden 2015 (local Darden: 2002, 2003, 2005, 2008, 2011, 2012, 2014x2, 2018-19, 2023-24, 2024-25)"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Darden (UVA)",
+      "edition_as_listed": "2019",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Darden_Case_Book_2018-2019.pdf",
+        "UVA Darden Casebook-2018.pdf"
+      ],
+      "match_basis": "season-year: 2018-19 edition; two local candidates with identical normalized-text SHA256 (see duplicate_candidates)",
+      "notes": "Soreno also reports it on a UVA site as a public PDF"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Darden (UVA)",
+      "edition_as_listed": "NEW 2021",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local Darden between 2018-19 and 2023-24"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Berkeley Haas",
+      "edition_as_listed": "Haas 2006",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Berkeley_Case_Book_2006.pdf",
+        "UC Berkeley HAAS Case Book-2006.pdf"
+      ],
+      "match_basis": "year+school; two local candidates with identical normalized-text SHA256 (see duplicate_candidates)",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "UCLA Anderson",
+      "edition_as_listed": "UCLA 2010",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local UCLA 2010 (local UCLA: 1999, 2020)"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "UCLA Anderson",
+      "edition_as_listed": "UCLA 2016",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local candidate"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Berkeley Haas",
+      "edition_as_listed": "Haas 2019",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Haas_2019.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "UCLA Anderson",
+      "edition_as_listed": "UCLA 2020",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Anderson_2020.pdf"
+      ],
+      "match_basis": "year+school; source page 'California/UCLA' vs local 'Anderson' naming",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "London Business School",
+      "edition_as_listed": "2006",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "London Casebook-2006.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "London Business School",
+      "edition_as_listed": "2008",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "London Casebook-2008.pdf",
+        "London_Business_School_Case_Book_2007-2008.pdf"
+      ],
+      "match_basis": "season-year: 2008 label maps to 2007-08 and/or 2008 editions; candidacy unresolved (normalized texts differ) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "London Business School",
+      "edition_as_listed": "2009",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "London Casebook-2009.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "London Business School",
+      "edition_as_listed": "2011",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "London Casebook-2011.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "London Business School",
+      "edition_as_listed": "2013",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "London Casebook-2013.pdf",
+        "London_Business_School_2013.pdf"
+      ],
+      "match_basis": "year+school; candidacy unresolved (normalized texts differ) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "INSEAD",
+      "edition_as_listed": "2006",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "INSEAD Casebook-2006.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "INSEAD",
+      "edition_as_listed": "2007",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local INSEAD 2007 (local INSEAD: 2006, 2011, 2021)"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "INSEAD",
+      "edition_as_listed": "2011",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "INSEAD Case Book 2011.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "INSEAD",
+      "edition_as_listed": "NEW 2020",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local INSEAD between 2011 and 2021; page lists 2020 and 2021 as separate editions"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "INSEAD",
+      "edition_as_listed": "NEW 2021",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "INSEAD_2021.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Tuck (Dartmouth)",
+      "edition_as_listed": "2000",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "uncertain",
+      "local_candidates": [
+        "Dartmouth Tuck Casebook-1999.pdf"
+      ],
+      "match_basis": "possible season overlap: local 1999 file may be the 1999-2000 edition the page labels '2000'",
+      "notes": "filename alone cannot confirm"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Tuck (Dartmouth)",
+      "edition_as_listed": "2009",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Dartmouth Tuck Casebook-2009.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Tuck (Dartmouth)",
+      "edition_as_listed": "2010",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Tuck_Case_Book_2009-2010.pdf"
+      ],
+      "match_basis": "season-year: 2010 label maps to the 2009-10 edition",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "MIT Sloan",
+      "edition_as_listed": "2001",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "MIT Sloan Casebook-2001.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "MIT Sloan",
+      "edition_as_listed": "2011",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "MIT Sloan Casebook-2011.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": "CAUTION: pdf-inventory reports text extraction yielded only 169 characters for this file (likely image-only PDF); presence verified by filename, content not text-verifiable"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "MIT Sloan",
+      "edition_as_listed": "2015",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "MIT Sloan Casebook-2015.pdf",
+        "Sloan_2015.pdf"
+      ],
+      "match_basis": "year+school; two local files with the 2015 label are not text-equivalent (44p vs 46p; normalized texts differ); relationship unverified - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Harvard Business School",
+      "edition_as_listed": "2004",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Harvard HBS Casebook-2004.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": "local also holds Harvard HBS Casebook-2010.pdf with identical normalized text (see duplicate_candidates): the same text is filed under two year labels; which label is correct is undetermined"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Harvard Business School",
+      "edition_as_listed": "2011",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Harvard HBS Casebook-2011.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Cornell Johnson",
+      "edition_as_listed": "1999",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Cornell Johnson Casebook-1999.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Cornell Johnson",
+      "edition_as_listed": "NEW 2021",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Johnson_2021.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "McCombs (UT Austin)",
+      "edition_as_listed": "2008",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "UT Austin McCombs-2008.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "McCombs (UT Austin)",
+      "edition_as_listed": "2018",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "McCombs_2018.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Yale SOM",
+      "edition_as_listed": "Yale 2013",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Yale Casebook-2013.pdf",
+        "Yale_2013.pdf"
+      ],
+      "match_basis": "year+school; text-equivalent local pair (identical normalized-text SHA256) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "McGill (Desautels)",
+      "edition_as_listed": "McGill 2014",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "uncertain",
+      "local_candidates": [
+        "McGill Casebook-2013.pdf"
+      ],
+      "match_basis": "possible season overlap: local 2013 file may be the 2013-14 edition the page labels '2014'",
+      "notes": "Soreno (checked 2026-10-28) reports McGill's career page lists the 2013-14 book but the file returned access denied - restriction as reported by that source; not tested by this audit"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Gies (Illinois)",
+      "edition_as_listed": "Illinois 2016",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Illinois_Case_Book_2015-2016.pdf"
+      ],
+      "match_basis": "season-year: 2016 label maps to the 2015-16 edition",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Notre Dame Mendoza",
+      "edition_as_listed": "Notre Dame 2018",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Notre_Dame_2018.pdf",
+        "Notre Dame Mendoza Casebook-2017.pdf"
+      ],
+      "match_basis": "season-year: 2018 label maps to the 2017-18 edition; text-equivalent local pair (identical normalized-text SHA256) - see duplicate_candidates",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "ESADE",
+      "edition_as_listed": "ESADE 2018",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local ESADE 2018 (local ESADE: 2011 x2, 2025)"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "UPenn (non-Wharton)",
+      "edition_as_listed": "UPenn Non-Wharton 2019",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "primary_source_available",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "almost certainly the Penn Career Services 'Case Interview Guide': public PDF at https://cdn.uconnectlabs.com/wp-content/uploads/sites/74/2019/09/Penn-Case-Book-with-Practice-Cases.pdf (page https://careerservices.upenn.edu/resources/case-interview-guide/, captured in ../research/penn.json); Soreno independently lists it as one of the three school-hosted public casebooks. Not in local corpus."
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "Queen's Smith (Canada)",
+      "edition_as_listed": "Queens 2019",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "present_title_match",
+      "local_candidates": [
+        "Queens_2019.pdf"
+      ],
+      "match_basis": "year+school",
+      "notes": ""
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "IIM Calcutta",
+      "edition_as_listed": "Calcutta IIM 2022",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local candidate; StrategyCase notes IIM Calcutta's Consult Club has no current public edition"
+    },
+    {
+      "source_page": "masterthecase",
+      "school": "IIM Lucknow",
+      "edition_as_listed": "Lucknow IIM 2022",
+      "section": "per-school listing",
+      "source_url": "https://www.masterthecase.com/case-interview-casebooks-top-mba#two-step",
+      "host_kind": "anchor_two_step (no direct file URL in capture)",
+      "status": "missing",
+      "local_candidates": [],
+      "match_basis": "",
+      "notes": "no local candidate; local corpus holds no IIM Lucknow books (StrategyCase links a newer 2025 Finals edition on SlideShare)"
+    }
+  ],
+  "post_audit_added_sources": [
+    {
+      "source_id": "notre-dame-2026",
+      "title": "University of Notre Dame 2026 Case Book (Meruelo Family Center for Career Development / Consulting Connect)",
+      "url": "https://consultingconnect.nd.edu/assets/658111/university_of_notre_dame_case_book.pdf",
+      "records": 22
+    },
+    {
+      "source_id": "penn-career-services",
+      "title": "The University of Pennsylvania Consulting Preparation Guide (Penn Career Services)",
+      "url": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/74/2019/09/Penn-Case-Book-with-Practice-Cases.pdf",
+      "records": 10
+    },
+    {
+      "source_id": "fms-2025-26",
+      "title": "FMS Delhi Consulting Case Book 2025–26",
+      "url": "https://drive.google.com/file/d/1_T0ezaKdwGKeGBeZTW8zCMsRshQw6QaK/view",
+      "records": 76
+    },
+    {
+      "source_id": "mckinsey-beautify",
+      "title": "Official McKinsey — Beautify",
+      "url": "https://www.mckinsey.com/careers/interviewing/beautify",
+      "records": 1
+    },
+    {
+      "source_id": "mckinsey-diconsa",
+      "title": "Official McKinsey — Diconsa",
+      "url": "https://www.mckinsey.com/careers/interviewing/diconsa",
+      "records": 1
+    },
+    {
+      "source_id": "mckinsey-electrolight",
+      "title": "Official McKinsey — Electro-Light",
+      "url": "https://www.mckinsey.com/careers/interviewing/electrolight",
+      "records": 1
+    },
+    {
+      "source_id": "mckinsey-national-education",
+      "title": "Official McKinsey — National Education",
+      "url": "https://www.mckinsey.com/careers/interviewing/national-education",
+      "records": 1
+    },
+    {
+      "source_id": "mckinsey-talbot-trucks",
+      "title": "Official McKinsey — Talbot Trucks",
+      "url": "https://www.mckinsey.com/careers/interviewing/talbot-trucks",
+      "records": 1
+    },
+    {
+      "source_id": "bain-coffee",
+      "title": "Official Bain — Coffee Shop Co.",
+      "url": "https://www.bain.com/careers/hiring-process/interviewing/coffee-case-study/",
+      "records": 1
+    },
+    {
+      "source_id": "bain-fashion",
+      "title": "Official Bain — FashionCo.",
+      "url": "https://www.bain.com/careers/hiring-process/interviewing/fashion-case-study/",
+      "records": 1
+    },
+    {
+      "source_id": "fms-casebook-2020-21",
+      "title": "FMS Delhi Consulting Case Book 2020-21",
+      "url": "https://drive.google.com/file/d/1syz3wdQ_UjdEf1UUEeG9g4GxvV4R77d_/view",
+      "records": 36
+    },
+    {
+      "source_id": "fms-casebook-2021-22",
+      "title": "FMS Delhi Consulting Case Book 2021-22",
+      "url": "https://drive.google.com/file/d/1QiHFHt39H7ftXULBUNazha2ixRfy1uhj/view",
+      "records": 42
+    },
+    {
+      "source_id": "fms-casebook-2023-24",
+      "title": "FMS Delhi Consulting Case Book 2023-24",
+      "url": "https://drive.google.com/file/d/15APkxF6aQuJrogqNhnwogU_AOs-EUuXE/view",
+      "records": 52
+    },
+    {
+      "source_id": "fms-casebook-2024-25",
+      "title": "FMS Delhi Consulting Case Book 2024-25",
+      "url": "https://drive.google.com/file/d/1boZt5E6bT7ia6ysWFnmZeOaZ9RmTMuqB/view",
+      "records": 62
+    }
+  ]
+}

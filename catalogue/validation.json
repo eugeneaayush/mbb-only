@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-15T22:56:08.057451+00:00",
+  "original_files_preserved": 144,
+  "original_hashes_checked": 144,
+  "source_records": 158,
+  "navigation_records": 3990,
+  "mapped_records": 1561,
+  "review_queue_records": 2429,
+  "relative_markdown_links_checked": 24275,
+  "missing_relative_targets": 0,
+  "private_path_or_secret_pattern_matches_in_new_files": 0,
+  "metadata_and_negative_fixtures": "PASS",
+  "generated_companion_inventory": "PASS",
+  "limits": [
+    "Counts are case/version and short-question navigation records, not unique cases.",
+    "Source mapping is not full arithmetic or visual validation.",
+    "External URLs were retrieved during source research; this check only validates local link targets.",
+    "Pre-existing AGENTS.md and CLAUDE.md were preserved; privacy scan covers newly added public artifacts."
+  ],
+  "browser_functional_checks": {
+    "default_mapped_count": 1561,
+    "total_records": 3990,
+    "exact_title_search": "PASS",
+    "FMS_mapped_count": 268,
+    "review_filter_count": 2429,
+    "no_match_search": "PASS"
+  }
+}
