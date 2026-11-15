@@ -1,0 +1,32 @@
+# Steel Manufacturer High Costs — interviewer companion
+
+**Source:** FMS Delhi Consulting Case Book 2020-21
+
+**Case ID:** `steel-manufacturer-high-costs-7ef9fe14db`
+
+**Review status:** `source_mapped`
+
+**Open the source:** [Publisher / existing source](https://drive.google.com/file/d/1syz3wdQ_UjdEf1UUEeG9g4GxvV4R77d_/view#page=113)
+
+This companion is an original navigation aid. Use the source for the actual prompt and available answer material. This file does not invent a replacement solution or claim an independently checked answer key. A `needs_review` entry is not ready to give; resolve its mapping and answer gaps first.
+
+| Material | Physical PDF pages / slides |
+|---|---|
+| Complete case range | 113–114 |
+| Prompt locations (may also contain answers) | 113 |
+| Interviewer / solution locations | 113–114 |
+| Exhibit mentions (not certified candidate-safe pages) | Not separately identified |
+
+**Mapping evidence:** Root OCR recovery: title/opening and full case range checked; final page contains Case Facts/Approach, a model decision diagram or worked discussion. Source dialogue and model approach are mixed interviewer material. Source spelling Apple Orchid is retained for this edition.
+
+**Limitations:** Image-heavy student case recollection recovered with OCR. Read the visual source to confirm inputs; use the complete dialogue and approach diagram to prepare the release sequence. No full numerical audit; no page in this range is certified candidate-safe.
+
+## Prepare and give this case
+
+1. Open the complete source range. Locate the exact prompt, clarifications, exhibit triggers, worked calculations and closing discussion. If any required part is missing, repair it before the session or select another case.
+2. Recalculate the quantitative steps. Record any discrepancy; distinguish the author’s inputs from any explicit assumption agreed with your partner.
+3. Read only the prompt aloud. Share only visually inspected candidate exhibits, individually. Prompt and exhibit pages may contain solutions; never share the full book or this companion with a cold candidate.
+4. Follow the source's question sequence or candidate-led release logic. Accept alternative sound structures; use the agreed hint policy.
+5. Give specific feedback using the [scorecard](../resources/SCORECARD.md), then redo one weak step. Log the exact case ID privately.
+
+See [Run a case](../resources/RUN-A-CASE.md), [source catalogue](../catalogue/README.md), and [coverage and limitations](../COVERAGE.md).

@@ -1,0 +1,82 @@
+[
+  {
+    "normalized_text_sha256": "4b493a6530d7f11476659f6d4300704c0d51e26ba000ea1a64ea7f43aeafb35b",
+    "files": [
+      "Berkeley_Case_Book_2006.pdf",
+      "UC Berkeley HAAS Case Book-2006.pdf"
+    ],
+    "limitation": "Extracted text match only; image, layout, metadata and pagination identity not established."
+  },
+  {
+    "normalized_text_sha256": "abf4b6a5e25cb1969ccade35c88ed9556a11848b4aa7f5419b4af5a6b0fcffd9",
+    "files": [
+      "Darden_Case_Book_2018-2019.pdf",
+      "UVA Darden Casebook-2018.pdf"
+    ],
+    "limitation": "Extracted text match only; image, layout, metadata and pagination identity not established."
+  },
+  {
+    "normalized_text_sha256": "1c9bf3c33cf83acfe81c1ecae3f6f95d62f5d4a2398ed31adfaaf912fafc3d45",
+    "files": [
+      "ESADE Casebook-2011.pdf",
+      "ESADE_2011.pdf"
+    ],
+    "limitation": "Extracted text match only; image, layout, metadata and pagination identity not established."
+  },
+  {
+    "normalized_text_sha256": "9455738178fa4d28f130ac063defcff06e616f60f389050045cee31303a2eafd",
+    "files": [
+      "Emory Goizueta Casebook-2006.pdf",
+      "Goizueta_2006.pdf"
+    ],
+    "limitation": "Extracted text match only; image, layout, metadata and pagination identity not established."
+  },
+  {
+    "normalized_text_sha256": "e1f89f1ae203ee4779f4e7d156e4f6ac805a803a30ad7d0dbe78c550f6735ae6",
+    "files": [
+      "Harvard HBS Casebook-2004.pdf",
+      "Harvard HBS Casebook-2010.pdf"
+    ],
+    "limitation": "Extracted text match only; image, layout, metadata and pagination identity not established."
+  },
+  {
+    "normalized_text_sha256": "0342588eb2f1cdb9dd3f8b1a8365b3c464a207121c6319bf45e132b11a8ace53",
+    "files": [
+      "Kellogg_Case_Book_2012.pdf",
+      "Northwestern Kellogg Casebook-2012.pdf"
+    ],
+    "limitation": "Extracted text match only; image, layout, metadata and pagination identity not established."
+  },
+  {
+    "normalized_text_sha256": "a792fb234c933b5f935dd8493e4232ea3f9867e3f6e55e684884900e06d3da29",
+    "files": [
+      "Michigan Ross Casebook-2010-1.pdf",
+      "Ross_2010.pdf"
+    ],
+    "limitation": "Extracted text match only; image, layout, metadata and pagination identity not established."
+  },
+  {
+    "normalized_text_sha256": "9ae03d786e4abdfca1433b85e094b4e8347d4c79e7cb0d94ae90e87fbe49d579",
+    "files": [
+      "Notre Dame Mendoza Casebook-2017.pdf",
+      "Notre_Dame_2018.pdf"
+    ],
+    "limitation": "Extracted text match only; image, layout, metadata and pagination identity not established."
+  },
+  {
+    "normalized_text_sha256": "2e3f4ae1784ba27c5a4184be43b831abc35ecf2f240e26e3f0aa0437001f2e6b",
+    "files": [
+      "UPenn Wharton Casebook-2017.pdf",
+      "Wharton_Case_Book_2017.pdf"
+    ],
+    "limitation": "Extracted text match only; image, layout, metadata and pagination identity not established."
+  },
+  {
+    "normalized_text_sha256": "9b177bc0fa7f1953e646abfe427c1f78b284784adec7f34b125aa1e345798f34",
+    "files": [
+      "Yale Casebook-2013.pdf",
+      "Yale_2013.pdf"
+    ],
+    "limitation": "Extracted text match only; image, layout, metadata and pagination identity not established."
+  }
+]

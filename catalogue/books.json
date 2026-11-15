@@ -1,0 +1,1561 @@
+[
+  {
+    "id": "anderson-2020",
+    "title": "Anderson 2020",
+    "file": "Anderson_2020.pdf",
+    "format": "pdf",
+    "pages": 44,
+    "sha256": "de7f92bbe0bad1d550e29a2997193f79d29ae4db5e58b36b4d45bbe827328f02",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "australian-graduate-school-of-management-2002",
+    "title": "Australian Graduate School of Management 2002",
+    "file": "Australian_Graduate_School_of_Management_2002.pdf",
+    "format": "pdf",
+    "pages": 85,
+    "sha256": "90ea096c5928c1018db1d6c5100de36b4422b0e5d34b21ad64a21bd8b25258a4",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "bauer-2025",
+    "title": "Bauer 2025",
+    "file": "Bauer_2025.pdf",
+    "format": "pdf",
+    "pages": 156,
+    "sha256": "0d2868b2c07a9ec5c22ec6e97784b498996c4a7f29471b74f1e11b964619ad36",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "berkeley-case-book-2006",
+    "title": "Berkeley Case Book 2006",
+    "file": "Berkeley_Case_Book_2006.pdf",
+    "format": "pdf",
+    "pages": 58,
+    "sha256": "490c02bf2df49dd0aa837390a2a29447c1bcc84e2d076b05fe2aae93500cf3bb",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "booth-2005",
+    "title": "Booth 2005",
+    "file": "Booth_2005.pdf",
+    "format": "pdf",
+    "pages": 123,
+    "sha256": "269cb8ec96b6427545b637fab4901b79fdce150b2950d31a3e966be479a29f59",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "booth-2025",
+    "title": "Booth 2025",
+    "file": "Booth_2025.pdf",
+    "format": "pdf",
+    "pages": 385,
+    "sha256": "9828a90fa7f3cbca9735d0cff5b9f8e75fb32a3765131c5100c0509a4192b327",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "carnegie-mellon-tepper-casebook-2008",
+    "title": "Carnegie Mellon Tepper Casebook-2008",
+    "file": "Carnegie Mellon Tepper Casebook-2008.pdf",
+    "format": "pdf",
+    "pages": 91,
+    "sha256": "6bdb6f5d2a823a3d3f2b762cc321203a3496f9663982a7e1cd3d7b8a81f905c8",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "chicago-booth-casebook-2000",
+    "title": "Chicago Booth Casebook-2000",
+    "file": "Chicago Booth Casebook-2000.pdf",
+    "format": "pdf",
+    "pages": 24,
+    "sha256": "96b8ea9a17fef8e38eccef26d99e662fbed07f202303e3453cedca6d6afcf845",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "chicago-booth-casebook-2003",
+    "title": "Chicago Booth Casebook-2003",
+    "file": "Chicago Booth Casebook-2003.pdf",
+    "format": "pdf",
+    "pages": 137,
+    "sha256": "5d3f38a4dc04870ec6b8cebe4c3d45f95c2c0ab6182cd55d6749aded5465143a",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "columbia-casebook-2002",
+    "title": "Columbia Casebook-2002",
+    "file": "Columbia Casebook-2002.pdf",
+    "format": "pdf",
+    "pages": 119,
+    "sha256": "db33c45a64189a225983050b641383710526e879a144be42c91c37cc2cc2d775",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "columbia-casebook-2004",
+    "title": "Columbia Casebook-2004",
+    "file": "Columbia Casebook-2004.pdf",
+    "format": "pdf",
+    "pages": 51,
+    "sha256": "0b8ced174e79140ff284f6018ffaaadeae135a06227ad22985d44fd63f252c85",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "columbia-casebook-2006",
+    "title": "Columbia Casebook-2006",
+    "file": "Columbia Casebook-2006.pdf",
+    "format": "pdf",
+    "pages": 89,
+    "sha256": "3d5478e585127770e6a97ec861da9950c53613d7ca741df926a936c49f56d276",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "columbia-casebook-2007",
+    "title": "Columbia Casebook-2007",
+    "file": "Columbia Casebook-2007.pdf",
+    "format": "pdf",
+    "pages": 122,
+    "sha256": "e6d120cff47c862349e5d70eaae07bb57958e4503af1a1fe00f8cca8d09eaa3b",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "columbia-casebook-2008",
+    "title": "Columbia Casebook-2008",
+    "file": "Columbia Casebook-2008.pdf",
+    "format": "pdf",
+    "pages": 79,
+    "sha256": "14904d645cd6eb320ced2c8ad3acc23bfcf0d42b432c19a41bd2336c31aa911f",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "columbia-2007",
+    "title": "Columbia 2007",
+    "file": "Columbia_2007.pdf",
+    "format": "pdf",
+    "pages": 47,
+    "sha256": "9778d2a84eb93a13606cec2bacf0ba5321879f0f9d4a7a91514f5094fc4111d6",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "columbia-2021",
+    "title": "Columbia 2021",
+    "file": "Columbia_2021.pdf",
+    "format": "pdf",
+    "pages": 333,
+    "sha256": "0437c9a0e45c2606d0a2042336a991c8eb59c8d762246b4c1ca5f257a2ae4cc2",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "columbia-business-school-case-book-2006",
+    "title": "Columbia Business School Case Book 2006",
+    "file": "Columbia_Business_School_Case_Book_2006.pdf",
+    "format": "pdf",
+    "pages": 89,
+    "sha256": "b14ceb0a5e35a41d2ca80e2d9df937a77991394bb538429f4d423e49e64a4320",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "cornell-johnson-casebook-1999",
+    "title": "Cornell Johnson Casebook-1999",
+    "file": "Cornell Johnson Casebook-1999.pdf",
+    "format": "pdf",
+    "pages": 118,
+    "sha256": "de2df93606253d911d70fa2b26cfd8c3237ca786d9b5e6588d1e9e6eadd32491",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "cornell-johnson-casebook-2003",
+    "title": "Cornell Johnson Casebook-2003",
+    "file": "Cornell Johnson Casebook-2003.pdf",
+    "format": "pdf",
+    "pages": 99,
+    "sha256": "63b82530f3c4b98705ed4cae51bcd50d20868ee5f85ff43e123572bb81a151ee",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "cornell-johnson-casebook-2019",
+    "title": "Cornell Johnson Casebook-2019",
+    "file": "Cornell Johnson Casebook-2019.pdf",
+    "format": "pdf",
+    "pages": 13,
+    "sha256": "c595c29d6dfb480c6ac24944459a1f915d89e3244eda90e0d57035add4f29a81",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "darden-casebook-2023-2024",
+    "title": "Darden Casebook 2023-2024",
+    "file": "Darden Casebook 2023-2024.pdf",
+    "format": "pdf",
+    "pages": 145,
+    "sha256": "e76d9a1874620c14c480318fb21f572715fb4f4b5b92037ad861ae91cef72e84",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "darden-casebook-2024-2025",
+    "title": "Darden Casebook 2024-2025",
+    "file": "Darden Casebook 2024-2025.pdf",
+    "format": "pdf",
+    "pages": 160,
+    "sha256": "e14d88da9610e42309388035aadaad5f109ba1287fa4e107cc28a1a1b60ed2a7",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "darden-case-book-2018-2019",
+    "title": "Darden Case Book 2018-2019",
+    "file": "Darden_Case_Book_2018-2019.pdf",
+    "format": "pdf",
+    "pages": 178,
+    "sha256": "06e3896304b85ee01d3766fd8fd2810d368eb08e40b756cbb4723e412e622151",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "dartmouth-tuck-casebook-1999",
+    "title": "Dartmouth Tuck Casebook-1999",
+    "file": "Dartmouth Tuck Casebook-1999.pdf",
+    "format": "pdf",
+    "pages": 99,
+    "sha256": "f53c7e663afeff37cd4d2d3ca809c59d8844ad38170bf18813813f27688a4ac7",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "dartmouth-tuck-casebook-2006",
+    "title": "Dartmouth Tuck Casebook-2006",
+    "file": "Dartmouth Tuck Casebook-2006.pdf",
+    "format": "pdf",
+    "pages": 22,
+    "sha256": "4f485c7c9ee6ae1ca8d42795f725c078a5bdb900d6d3e25f3fb7fc353327c881",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified. Known gap: case pages absent from this file."
+  },
+  {
+    "id": "dartmouth-tuck-casebook-2009",
+    "title": "Dartmouth Tuck Casebook-2009",
+    "file": "Dartmouth Tuck Casebook-2009.pdf",
+    "format": "pdf",
+    "pages": 120,
+    "sha256": "749f32f3a737fa752d4ce7fcc61d7a6d871c9dc42071584b9ed58c43bb6eda1e",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "duke-fuqua-casebook-2001",
+    "title": "Duke Fuqua Casebook-2001",
+    "file": "Duke Fuqua Casebook-2001.pdf",
+    "format": "pdf",
+    "pages": 106,
+    "sha256": "d3b7e11e361d5ab6f7755f50561321632b0c783a8f8142c0296194fa7da4ab49",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "duke-fuqua-casebook-2005",
+    "title": "Duke Fuqua Casebook-2005",
+    "file": "Duke Fuqua Casebook-2005.pdf",
+    "format": "pdf",
+    "pages": 98,
+    "sha256": "368fc1f5d85303ec5a879450d4b315ae4830fdc3351dc384e6503532270330fe",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "duke-fuqua-casebook-2008",
+    "title": "Duke Fuqua Casebook-2008",
+    "file": "Duke Fuqua Casebook-2008.pdf",
+    "format": "pdf",
+    "pages": 50,
+    "sha256": "bb42c1a5c3ec43011e3a315322ead931f6823ef6ba1e8f1fb02f31ebc800dd79",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Previously unreadable text layer recovered with OCR. Source case headings, case boundaries and answer/guidance locations mapped; inspect the visual source for OCR errors. Firm/round attributions are the student source’s claims, not authenticated interview policy."
+  },
+  {
+    "id": "duke-fuqua-casebook-2009",
+    "title": "Duke Fuqua Casebook-2009",
+    "file": "Duke Fuqua Casebook-2009.pdf",
+    "format": "pdf",
+    "pages": 129,
+    "sha256": "1c40e102fe1878f1d6d6959ec544500724e0a5dfe5dea67763013a9844955461",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "duke-fuqua-casebook-2010",
+    "title": "Duke Fuqua Casebook-2010",
+    "file": "Duke Fuqua Casebook-2010.pdf",
+    "format": "pdf",
+    "pages": 130,
+    "sha256": "27b04f4a64c22c3e3a1cc126a30b5e244ab7edcd812b72a4056cea6dfe27909a",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "duke-fuqua-casebook-2011",
+    "title": "Duke Fuqua Casebook-2011",
+    "file": "Duke Fuqua Casebook-2011.pdf",
+    "format": "pdf",
+    "pages": 169,
+    "sha256": "78002fa13bf9692298c3217fdd040ae7f979c5cada458f861653a5263298a448",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "duke-fuqua-casebook-2012",
+    "title": "Duke Fuqua Casebook-2012",
+    "file": "Duke Fuqua Casebook-2012.pptx",
+    "format": "pptx",
+    "pages": 175,
+    "sha256": "faf5278a25c6df810c0b5ebfb592c14d42c9b43f0a94e5f65e85a9e7b262c213",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "duke-fuqua-casebook-2013",
+    "title": "Duke Fuqua Casebook-2013",
+    "file": "Duke Fuqua Casebook-2013.pptx",
+    "format": "pptx",
+    "pages": 177,
+    "sha256": "d6fcbacfedad2935e29091cd98dadea2b438d44594cea898e7e32d4dd527641c",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "duke-fuqua-casebook-2014-1",
+    "title": "Duke Fuqua Casebook-2014 1",
+    "file": "Duke Fuqua Casebook-2014 1.pdf",
+    "format": "pdf",
+    "pages": 256,
+    "sha256": "c402814559b94515943d25ef01427442b48efbc85c54ffb0ab44aec9d58aea5e",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "duke-fuqua-casebook-2014-2",
+    "title": "Duke Fuqua Casebook-2014 2",
+    "file": "Duke Fuqua Casebook-2014 2.pdf",
+    "format": "pdf",
+    "pages": 248,
+    "sha256": "5ebd6b7ed416d49b61a28424557c6979b2abc87a2e1999137f0ef449a5f365a8",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "esade-casebook-2011",
+    "title": "ESADE Casebook-2011",
+    "file": "ESADE Casebook-2011.pdf",
+    "format": "pdf",
+    "pages": 108,
+    "sha256": "353cbee3a695ecda25bee080d352e28f183fc1548addbaf707aa234a1a0c624b",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "esade-2011",
+    "title": "ESADE 2011",
+    "file": "ESADE_2011.pdf",
+    "format": "pdf",
+    "pages": 108,
+    "sha256": "9a557014cf66ca6ee4c5f66cf7512aad85ed4dd5022c5fbf4cbe531363943df3",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "esade-2025",
+    "title": "ESADE 2025",
+    "file": "ESADE_2025.pdf",
+    "format": "pdf",
+    "pages": 119,
+    "sha256": "52d0332f8e25065ad22ae8c1e86912574719a1d6597e98a67b6f242b28971145",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "emory-goizueta-casebook-2006",
+    "title": "Emory Goizueta Casebook-2006",
+    "file": "Emory Goizueta Casebook-2006.pdf",
+    "format": "pdf",
+    "pages": 666,
+    "sha256": "f128679eb444a486b91c193c56d84ebd721d44bb928b04fe40834b87b3604398",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "fuqua-2018",
+    "title": "Fuqua 2018",
+    "file": "Fuqua_2018.pdf",
+    "format": "pdf",
+    "pages": 219,
+    "sha256": "8e0fc0746aa0bba176a1eadf40e8dae636d8d1d5c60c002f669229559dbbb791",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "fuqua-2024",
+    "title": "Fuqua 2024",
+    "file": "Fuqua_2024.pdf",
+    "format": "pdf",
+    "pages": 176,
+    "sha256": "54f60eddf1ea4c3e77167300a6a88506842d88abf162c0d527e4f0247a414801",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "georgetown-casebook-2015",
+    "title": "Georgetown Casebook-2015",
+    "file": "Georgetown Casebook-2015.pdf",
+    "format": "pdf",
+    "pages": 150,
+    "sha256": "32531487f6aac00cbf65a219c3885483baf6d18b0e99e68dc48820af614c3dae",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "goizueta-2006",
+    "title": "Goizueta 2006",
+    "file": "Goizueta_2006.pdf",
+    "format": "pdf",
+    "pages": 666,
+    "sha256": "2efc7f1e70339fa4c04f7c05b8b1c99955d2c5e159ba449660ee0ab564b557d0",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "hkust-2024",
+    "title": "HKUST 2024",
+    "file": "HKUST_2024.pdf",
+    "format": "pdf",
+    "pages": 193,
+    "sha256": "3efe016be0962fde93d0ca26ce09675dc0181c638071de16fb0f794343883542",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "haas-2019",
+    "title": "Haas 2019",
+    "file": "Haas_2019.pdf",
+    "format": "pdf",
+    "pages": 179,
+    "sha256": "03f0de5518d226181435780ad368cf0fd2a72ea275da0842b3a4888bdb79817f",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "harvard-hbs-casebook-2004",
+    "title": "Harvard HBS Casebook-2004",
+    "file": "Harvard HBS Casebook-2004.pdf",
+    "format": "pdf",
+    "pages": 114,
+    "sha256": "099ada116624fcc1421bbc07341eaddc3c4c5d60372df99c5989f7a6a477a83a",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "harvard-hbs-casebook-2010",
+    "title": "Harvard HBS Casebook-2010",
+    "file": "Harvard HBS Casebook-2010.pdf",
+    "format": "pdf",
+    "pages": 114,
+    "sha256": "77b3a4f2b8839c68314ba3e3c8f2a13c0a774b8443e8e3838d03b48f99b407b3",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "harvard-hbs-casebook-2011",
+    "title": "Harvard HBS Casebook-2011",
+    "file": "Harvard HBS Casebook-2011.pdf",
+    "format": "pdf",
+    "pages": 139,
+    "sha256": "77c902b168f9d106ab241a908ebf21844c2a1f89cb07c14650cb4091584ddda1",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "insead-case-book-2011",
+    "title": "INSEAD Case Book 2011",
+    "file": "INSEAD Case Book 2011.pdf",
+    "format": "pdf",
+    "pages": 108,
+    "sha256": "437a9e8b068d9d333c95462f93ea1498c7b83e397c783800e9b29c6f7c226696",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "insead-casebook-2006",
+    "title": "INSEAD Casebook-2006",
+    "file": "INSEAD Casebook-2006.pdf",
+    "format": "pdf",
+    "pages": 96,
+    "sha256": "78d010a7a3995d8009bce093a5fd73f7ca1d5264fbdf5f2520c16bc5c1ee8c23",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "insead-2021",
+    "title": "INSEAD 2021",
+    "file": "INSEAD_2021.pdf",
+    "format": "pdf",
+    "pages": 140,
+    "sha256": "febf48d1828bccb4853b757c6e36c4f05a39e34c15b8dec39b8f9f0caf3befc7",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "illinois-case-book-2015-2016",
+    "title": "Illinois Case Book 2015-2016",
+    "file": "Illinois_Case_Book_2015-2016.pdf",
+    "format": "pdf",
+    "pages": 79,
+    "sha256": "83f2397ef2aca68dca04537142a9afcbcc2e50fa1ffbe5efbf205cea1bf641af",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "johnson-2003",
+    "title": "Johnson 2003",
+    "file": "Johnson_2003.pdf",
+    "format": "pdf",
+    "pages": 97,
+    "sha256": "cd7d21d4cb1ba818b806e5595681a461061bc054c8bfc36fc96d5fc4cd502189",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "johnson-2021",
+    "title": "Johnson 2021",
+    "file": "Johnson_2021.pdf",
+    "format": "pdf",
+    "pages": 241,
+    "sha256": "1cd82d032f6ac35f6d820570426e36f5db46c11b8375a48a860797c7fad6ad7a",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "kellogg-casebook-2020",
+    "title": "Kellogg Casebook 2020",
+    "file": "Kellogg Casebook_2020.pdf",
+    "format": "pdf",
+    "pages": 289,
+    "sha256": "88d2d36464e342bbd2a08fdb00668e532ec64fdb4d35c508f245ff26afeb4bbf",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "kellogg-case-book-2012",
+    "title": "Kellogg Case Book 2012",
+    "file": "Kellogg_Case_Book_2012.pdf",
+    "format": "pdf",
+    "pages": 236,
+    "sha256": "9c3622a40d3ba65c7d5e518150a6c1e5c51b0e9e76bfaeadf0883602497b9e74",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "london-casebook-2005",
+    "title": "London Casebook-2005",
+    "file": "London Casebook-2005.pdf",
+    "format": "pdf",
+    "pages": 96,
+    "sha256": "ad7d2b8c43a10a7275665108f54ce45fc7ca9281cf4c19b4d1c49ba357a48e69",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "london-casebook-2006",
+    "title": "London Casebook-2006",
+    "file": "London Casebook-2006.pdf",
+    "format": "pdf",
+    "pages": 173,
+    "sha256": "a4ad9256374d4f6168b439b23b762434d2a991ae92d77022812a3aec068e8730",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "london-casebook-2008",
+    "title": "London Casebook-2008",
+    "file": "London Casebook-2008.pdf",
+    "format": "pdf",
+    "pages": 157,
+    "sha256": "960a7b4c09cd765659ef0cd58a9afb65523117ccde0bd3c5158168b2e90a0c2e",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "london-casebook-2009",
+    "title": "London Casebook-2009",
+    "file": "London Casebook-2009.pdf",
+    "format": "pdf",
+    "pages": 141,
+    "sha256": "528f9fcbffc32730dd9cbdd6078105c66dd3a0bcb9ae8d99085ae9a6ec077ed2",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "london-casebook-2011",
+    "title": "London Casebook-2011",
+    "file": "London Casebook-2011.pdf",
+    "format": "pdf",
+    "pages": 30,
+    "sha256": "80def6a0ad27fe17599bb0c5220dd5f4f5a781188691a9aac6a6fe53703abf6e",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "london-casebook-2013",
+    "title": "London Casebook-2013",
+    "file": "London Casebook-2013.pdf",
+    "format": "pdf",
+    "pages": 89,
+    "sha256": "c45e5030a6e4a4feb30a9f753f281abbf32d40daec166f21765eee8ca221edca",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "london-business-school-2013",
+    "title": "London Business School 2013",
+    "file": "London_Business_School_2013.pdf",
+    "format": "pdf",
+    "pages": 89,
+    "sha256": "84d2ed62259ff5be0bf8040877f6fa1a4b314bbc41c61e834046b18be46278c0",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "london-business-school-case-book-2007-2008",
+    "title": "London Business School Case Book 2007-2008",
+    "file": "London_Business_School_Case_Book_2007-2008.pdf",
+    "format": "pdf",
+    "pages": 157,
+    "sha256": "da2be7743e6d07c88ad545a6bb31f0ae686e2e8616335bca42e65ecb6c860021",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "mit-sloan-casebook-2001",
+    "title": "MIT Sloan Casebook-2001",
+    "file": "MIT Sloan Casebook-2001.pdf",
+    "format": "pdf",
+    "pages": 168,
+    "sha256": "771c2e3de5fe1903254df4f7bd35f7671ea48188067577798d52deef3f8a2d24",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "mit-sloan-casebook-2004",
+    "title": "MIT Sloan Casebook-2004",
+    "file": "MIT Sloan Casebook-2004.pdf",
+    "format": "pdf",
+    "pages": 255,
+    "sha256": "e77e30a24e6898014a61f19fb3665d206560f502b9a947973c9e7a52a90acb89",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "mit-sloan-casebook-2011",
+    "title": "MIT Sloan Casebook-2011",
+    "file": "MIT Sloan Casebook-2011.pdf",
+    "format": "pdf",
+    "pages": 169,
+    "sha256": "8250504973b6238ec285db9017ec445476c9ce01bce2148d098f2266aad3445b",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "mit-sloan-casebook-2015",
+    "title": "MIT Sloan Casebook-2015",
+    "file": "MIT Sloan Casebook-2015.pdf",
+    "format": "pdf",
+    "pages": 44,
+    "sha256": "c490cfe5779b1346b53a3387f83aa27405b7bb7d2610c3a6aceb2114f633d671",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "mccombs-2018",
+    "title": "McCombs 2018",
+    "file": "McCombs_2018.pdf",
+    "format": "pdf",
+    "pages": 132,
+    "sha256": "6f02285d24893b49281266a3b5ef662a5c636c716e0528408d413b5840a15fd9",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "mcgill-casebook-2013",
+    "title": "McGill Casebook-2013",
+    "file": "McGill Casebook-2013.pdf",
+    "format": "pdf",
+    "pages": 127,
+    "sha256": "310b47f812931cbb743cdb5a7faeb828b783adb591b60b2d46f0a43f32c70369",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "michigan-ross-casebook-1999",
+    "title": "Michigan Ross Casebook-1999",
+    "file": "Michigan Ross Casebook-1999.doc",
+    "format": "doc",
+    "pages": null,
+    "sha256": "390bc3aa0a08c89222fc72602eb5c2ee5cbfc18ad04956bb01cda85a8e88e02b",
+    "checked_on": "2026-11-15",
+    "coverage_note": "43 numbered cases identified by source heading; unpaginated Word text. 42 contain a Possible Solution or Possible Answers section; Paper Products Manufacturer lacks one. Heading locators, not invented page numbers, are supplied."
+  },
+  {
+    "id": "michigan-ross-casebook-2001",
+    "title": "Michigan Ross Casebook-2001",
+    "file": "Michigan Ross Casebook-2001.pdf",
+    "format": "pdf",
+    "pages": 50,
+    "sha256": "41d784258f7bca494211a0f096d7037c705306ca0bfdbeead03be68b351ca3d2",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "michigan-ross-casebook-2003",
+    "title": "Michigan Ross Casebook-2003",
+    "file": "Michigan Ross Casebook-2003.pdf",
+    "format": "pdf",
+    "pages": 138,
+    "sha256": "67fd338b4193934645f60334ef159603e9374ba5a8400dc7afd762c0b1521ff4",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "michigan-ross-casebook-2004",
+    "title": "Michigan Ross Casebook-2004",
+    "file": "Michigan Ross Casebook-2004.pdf",
+    "format": "pdf",
+    "pages": 115,
+    "sha256": "7091c8deab10437a30cf3be6f23c812cfd27c49fb3d8b5ec8f47bd1cabf5e76f",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "michigan-ross-casebook-2005",
+    "title": "Michigan Ross Casebook-2005",
+    "file": "Michigan Ross Casebook-2005.pdf",
+    "format": "pdf",
+    "pages": 94,
+    "sha256": "cddca75513f8c43ec5fee23b058197f56c25c5568a26bc542e5e763c30ca37e5",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "michigan-ross-casebook-2006",
+    "title": "Michigan Ross Casebook-2006",
+    "file": "Michigan Ross Casebook-2006.pdf",
+    "format": "pdf",
+    "pages": 62,
+    "sha256": "5c8304ef81b2c257a10dff81692a94d04b7ce40e4af86dff87098a02268912c8",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Previously unreadable text layer recovered with OCR. Source case headings, case boundaries and answer/guidance locations mapped; inspect the visual source for OCR errors. Firm/round attributions are the student source’s claims, not authenticated interview policy."
+  },
+  {
+    "id": "michigan-ross-casebook-2008",
+    "title": "Michigan Ross Casebook-2008",
+    "file": "Michigan Ross Casebook-2008.pdf",
+    "format": "pdf",
+    "pages": 63,
+    "sha256": "6c0256042288a0479e2bb1ad3793cc0caeee457d04b2f0812e8c56b21c8b5666",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "michigan-ross-casebook-2009",
+    "title": "Michigan Ross Casebook-2009",
+    "file": "Michigan Ross Casebook-2009.pdf",
+    "format": "pdf",
+    "pages": 111,
+    "sha256": "b0eedc04d3c962348662adf5f42dfef49b0d359763e35c2e90cdbd6bb0b75335",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Previously unreadable text layer recovered with OCR. Source case headings, case boundaries and answer/guidance locations mapped; inspect the visual source for OCR errors. Firm/round attributions are the student source’s claims, not authenticated interview policy."
+  },
+  {
+    "id": "michigan-ross-casebook-2010-1",
+    "title": "Michigan Ross Casebook-2010-1",
+    "file": "Michigan Ross Casebook-2010-1.pdf",
+    "format": "pdf",
+    "pages": 108,
+    "sha256": "7b25cb4b1e9b1dc37a9fa531fdac33e63252e6bb31e9a3650a2f8df4c087a927",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "michigan-ross-casebook-2010-2",
+    "title": "Michigan Ross Casebook-2010-2",
+    "file": "Michigan Ross Casebook-2010-2.pdf",
+    "format": "pdf",
+    "pages": 95,
+    "sha256": "b50d7ff102a9aa229476e55617bc3b0f34107517ff59ce426d93cc2b71236c3c",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "michigan-ross-casebook-2011",
+    "title": "Michigan Ross Casebook-2011",
+    "file": "Michigan Ross Casebook-2011.pdf",
+    "format": "pdf",
+    "pages": 157,
+    "sha256": "26342c73695eea1cfc7d3587240056259a401d4711890648384704d2228f6b46",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "michigan-ross-casebook-2013",
+    "title": "Michigan Ross Casebook-2013",
+    "file": "Michigan Ross Casebook-2013.pdf",
+    "format": "pdf",
+    "pages": 182,
+    "sha256": "cefd916451eef0702e9591e7fb8c407b3942ef559c4fe5e98fd859febc0a1982",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "nyu-stern-casebook-2000",
+    "title": "NYU Stern Casebook-2000",
+    "file": "NYU Stern Casebook-2000.doc",
+    "format": "doc",
+    "pages": null,
+    "sha256": "3bc844a6884f8cf0df5c78ffb06e9139e43cf95c506f729b9ca38d0d377a8ea0",
+    "checked_on": "2026-11-15",
+    "coverage_note": "58 untitled practice questions indexed using editorial labels and searchable question openings: 16 have discussion/approach notes, 7 have prompt/background only, and 35 are bare questions. These are not 58 complete interview packets. No Word page numbers are invented."
+  },
+  {
+    "id": "nyu-stern-casebook-2006",
+    "title": "NYU Stern Casebook-2006",
+    "file": "NYU Stern Casebook-2006.pdf",
+    "format": "pdf",
+    "pages": 69,
+    "sha256": "949d276c11a8679a4c9dd161a71c2bf00896c15186ce01ed551b570c0bd1537a",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "nyu-stern-casebook-2007",
+    "title": "NYU Stern Casebook-2007",
+    "file": "NYU Stern Casebook-2007.pdf",
+    "format": "pdf",
+    "pages": 53,
+    "sha256": "a643876199f245faee0a39b301beab39eb6023c93bf5f47a21d104eff2503c7e",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "nyu-stern-casebook-2008",
+    "title": "NYU Stern Casebook-2008",
+    "file": "NYU Stern Casebook-2008.pdf",
+    "format": "pdf",
+    "pages": 63,
+    "sha256": "aa6f160c5340aedd11dd66743689f8b2911a6cd484e95f0fd192f3a6c004c938",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "nyu-stern-casebook-2013",
+    "title": "NYU Stern Casebook-2013",
+    "file": "NYU Stern Casebook-2013.pdf",
+    "format": "pdf",
+    "pages": 136,
+    "sha256": "6068b0f9fd7f747f09ad8ddd36e11bdcbf73c2a6ec1831980f30e8a74cc1c8f3",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "nyu-stern-casebook-2015",
+    "title": "NYU Stern Casebook-2015",
+    "file": "NYU Stern Casebook-2015.pdf",
+    "format": "pdf",
+    "pages": 157,
+    "sha256": "92ccfe4a4fab1f1a9ae253a6f6f20f0981ca5df7adb08c2020e6d19e46d79a40",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "nyu-stern-casebook-2018",
+    "title": "NYU Stern Casebook-2018",
+    "file": "NYU Stern Casebook-2018.pdf",
+    "format": "pdf",
+    "pages": 199,
+    "sha256": "9f55f57286a776e23be421849d89ae90c01d1fee25a5fd3de8ab4b7d732d3fb6",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "nyu-stern-casebook-2023",
+    "title": "NYU Stern Casebook-2023",
+    "file": "NYU Stern Casebook-2023.pdf",
+    "format": "pdf",
+    "pages": 349,
+    "sha256": "83f97a3a59d8391c9efdaf20b19d1951f79d45a96ba3cb46c33905e27cec02a7",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "nyu-stern-case-book-2015-2016",
+    "title": "NYU Stern Case Book 2015-2016",
+    "file": "NYU_Stern_Case_Book_2015-2016.pdf",
+    "format": "pdf",
+    "pages": 157,
+    "sha256": "b91356b4254ffc2d4b85a41a528b1ded6c6eacceb10c501c1a890ed1e3d2cb7c",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "northwestern-kellogg-casebook-2001",
+    "title": "Northwestern Kellogg Casebook-2001",
+    "file": "Northwestern Kellogg Casebook-2001.pdf",
+    "format": "pdf",
+    "pages": 105,
+    "sha256": "9f0a3bab3bd99b89cbceffc4a887ac60fe89a986c671e91c92f3eb1b622d8f7d",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "northwestern-kellogg-casebook-2004",
+    "title": "Northwestern Kellogg Casebook-2004",
+    "file": "Northwestern Kellogg Casebook-2004.pdf",
+    "format": "pdf",
+    "pages": 170,
+    "sha256": "a67c375882cfbb7eaa1c3d2feee889f5a4b6ffba7f7e057af21ec89995207243",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "northwestern-kellogg-casebook-2011",
+    "title": "Northwestern Kellogg Casebook-2011",
+    "file": "Northwestern Kellogg Casebook-2011.pdf",
+    "format": "pdf",
+    "pages": 211,
+    "sha256": "fe3bd522d3e04981b9a76e2360657500a73fdc81463a093b33e72b8b4d38574b",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "northwestern-kellogg-casebook-2012",
+    "title": "Northwestern Kellogg Casebook-2012",
+    "file": "Northwestern Kellogg Casebook-2012.pdf",
+    "format": "pdf",
+    "pages": 236,
+    "sha256": "4039306a3a86ba26c2d85926db9e92297baab6bba1f9c8a010568696dcca9b0c",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "northwestern-kellogg-casebook-2014",
+    "title": "Northwestern Kellogg Casebook-2014",
+    "file": "Northwestern Kellogg Casebook-2014.pdf",
+    "format": "pdf",
+    "pages": 204,
+    "sha256": "3fa7183e0b14dff4ce7a01fcdc835b60dde281d8ff3041b0c04a7a9847ed14a7",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "notre-dame-mendoza-casebook-2017",
+    "title": "Notre Dame Mendoza Casebook-2017",
+    "file": "Notre Dame Mendoza Casebook-2017.pdf",
+    "format": "pdf",
+    "pages": 110,
+    "sha256": "d276681816631a8125dc90675f5c0dbf6f63f5d29528c0fad1f572415c83f1e4",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "notre-dame-2018",
+    "title": "Notre Dame 2018",
+    "file": "Notre_Dame_2018.pdf",
+    "format": "pdf",
+    "pages": 110,
+    "sha256": "959001d4153b9b484616392e563d04ec65a8c84e66fd4e70d050de5c546ef8df",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "purdue-krannert-casebook-2013",
+    "title": "Purdue Krannert Casebook-2013",
+    "file": "Purdue Krannert Casebook-2013.pdf",
+    "format": "pdf",
+    "pages": 79,
+    "sha256": "a2d0bd487b08696c869d61fb27b6d500e0186fadb01bde04c743ae9f63d7b0f4",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "queens-2019",
+    "title": "Queens 2019",
+    "file": "Queens_2019.pdf",
+    "format": "pdf",
+    "pages": 137,
+    "sha256": "3fad262961b2d4aa28ebc287389b18bacdaf5f60c11677b05f405cefda29602e",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "ross-casebook-2024-2025",
+    "title": "Ross Casebook 2024-2025",
+    "file": "Ross Casebook 2024-2025.pdf",
+    "format": "pdf",
+    "pages": 219,
+    "sha256": "4d1214407d31820f2e82c6e2ed28c56c1e618ae5ff55fe4fbed765e1e5a82871",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "ross-2010",
+    "title": "Ross 2010",
+    "file": "Ross_2010.pdf",
+    "format": "pdf",
+    "pages": 108,
+    "sha256": "fff12387f13133bfccf3650f7330da99814c2a8cb590a82602f56630ca879994",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "ross-2019",
+    "title": "Ross 2019",
+    "file": "Ross_2019.pdf",
+    "format": "pdf",
+    "pages": 1093,
+    "sha256": "23cefad594ab441346e976afe997bd9ca7e4334a5c1dfedb123ffb1b389b5e1b",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "sloan-2015",
+    "title": "Sloan 2015",
+    "file": "Sloan_2015.pdf",
+    "format": "pdf",
+    "pages": 46,
+    "sha256": "30fe0978c93d33a51b1afeb8f0924bc5ce0712b718416e9b303d20267f051df3",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "sloan-2020",
+    "title": "Sloan 2020",
+    "file": "Sloan_2020.pdf",
+    "format": "pdf",
+    "pages": 271,
+    "sha256": "2b1fea3f6c49f5237a5f0a5d3ba9ff050d2305d191ca25efd8cfa5ac94018273",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "stanford-casebook-2006",
+    "title": "Stanford Casebook -2006",
+    "file": "Stanford Casebook -2006.pdf",
+    "format": "pdf",
+    "pages": 62,
+    "sha256": "2faef5fc4cae145343e5c0fd77528450673fcf89fed535118e457edd228c96e6",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Ten one-page case prompts at physical pages 44–53; no worked solutions in those pages. The rest is interview guidance."
+  },
+  {
+    "id": "stern-2024",
+    "title": "Stern 2024",
+    "file": "Stern_2024.pdf",
+    "format": "pdf",
+    "pages": 339,
+    "sha256": "9c039dea007818b370c069c27e7fa100f22d51c03b0f839fca30e89444505510",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "tuck-2024",
+    "title": "Tuck 2024",
+    "file": "Tuck_2024.pdf",
+    "format": "pdf",
+    "pages": 142,
+    "sha256": "547ca99f7d1e192ebf9f59f9675592afdb8e4f485cce9031c28ae9e9d243763f",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "tuck-case-book-2009-2010",
+    "title": "Tuck Case Book 2009-2010",
+    "file": "Tuck_Case_Book_2009-2010.pdf",
+    "format": "pdf",
+    "pages": 120,
+    "sha256": "59680d7ce39826517d6e6f8b07e1246dce4a2c43f7b440d41c1be070914cde9f",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "uc-berkeley-haas-case-book-2006",
+    "title": "UC Berkeley HAAS Case Book-2006",
+    "file": "UC Berkeley HAAS Case Book-2006.pdf",
+    "format": "pdf",
+    "pages": 58,
+    "sha256": "603272a646fbfa1b4a22180dada4f9846e2c7471114dd72ced32a8b007421310",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "uc-berkeley-haas-case-book-2015",
+    "title": "UC Berkeley HAAS Case Book-2015",
+    "file": "UC Berkeley HAAS Case Book-2015.pdf",
+    "format": "pdf",
+    "pages": 152,
+    "sha256": "3d7495cf0752287edc2801fd21a9e744a721f961fd54f9ac29abc6c830b6382d",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "ucc-casebook-2024",
+    "title": "UCC-Casebook 2024",
+    "file": "UCC-Casebook 2024.pdf",
+    "format": "pdf",
+    "pages": 234,
+    "sha256": "f8325204f2924ea3a0b6083b2ebfef377189063fdfa65c311aa84ceed7ea2ee8",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "ucla-anderson-casebook-1999",
+    "title": "UCLA Anderson Casebook-1999",
+    "file": "UCLA Anderson Casebook-1999.pdf",
+    "format": "pdf",
+    "pages": 127,
+    "sha256": "fab7e46e41ed55c886e8e290c8edc636d5a4f1052214c6ac45d8f9464367f077",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "upenn-wharton-casebook-2003",
+    "title": "UPenn Wharton Casebook-2003",
+    "file": "UPenn Wharton Casebook-2003.pdf",
+    "format": "pdf",
+    "pages": 62,
+    "sha256": "1149ca27cb56d575680258c64732dece7bf0dfcc057753d277d74ffd4eb67d74",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "upenn-wharton-casebook-2004",
+    "title": "UPenn Wharton Casebook-2004",
+    "file": "UPenn Wharton Casebook-2004.pdf",
+    "format": "pdf",
+    "pages": 47,
+    "sha256": "3e3dddedd19d57341f27f59af78cd5d15aa6cc16af9fb72abcb8c6c416af1ca3",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "upenn-wharton-casebook-2005",
+    "title": "UPenn Wharton Casebook-2005",
+    "file": "UPenn Wharton Casebook-2005.pdf",
+    "format": "pdf",
+    "pages": 43,
+    "sha256": "91d419912c97d0744c186e9a013ee16c816c8f3c3dd1fafaae2cd0729ff67899",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "upenn-wharton-casebook-2007",
+    "title": "UPenn Wharton Casebook-2007",
+    "file": "UPenn Wharton Casebook-2007.pdf",
+    "format": "pdf",
+    "pages": 74,
+    "sha256": "a99fd5b8b76b785b5a50c2070f8fcda6fee7c67e16c9e00c1e55b8fccecafb36",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "upenn-wharton-casebook-2008",
+    "title": "UPenn Wharton Casebook-2008",
+    "file": "UPenn Wharton Casebook-2008.pdf",
+    "format": "pdf",
+    "pages": 82,
+    "sha256": "07139562335db4f5425c7e3c2f065cb2e7ce70ee83997fce1811b7c3fd441065",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "upenn-wharton-casebook-2009",
+    "title": "UPenn Wharton Casebook-2009",
+    "file": "UPenn Wharton Casebook-2009.pdf",
+    "format": "pdf",
+    "pages": 137,
+    "sha256": "7aca97377da17dd36a1c2ff4140cff10559448452ee657af268ac0d771b9fa2c",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "upenn-wharton-casebook-2010",
+    "title": "UPenn Wharton Casebook-2010",
+    "file": "UPenn Wharton Casebook-2010.pdf",
+    "format": "pdf",
+    "pages": 131,
+    "sha256": "99495168d891c80eedc95000abb54fc22869ee8e62ea9c4f97aae3e4237cc6c6",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "upenn-wharton-casebook-2011",
+    "title": "UPenn Wharton Casebook-2011",
+    "file": "UPenn Wharton Casebook-2011.pdf",
+    "format": "pdf",
+    "pages": 95,
+    "sha256": "4b35e467ce1d82a0d1ffa8ae15d725cdb163941a8be159f45f2306e549e23b70",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "upenn-wharton-casebook-2017",
+    "title": "UPenn Wharton Casebook-2017",
+    "file": "UPenn Wharton Casebook-2017.pdf",
+    "format": "pdf",
+    "pages": 201,
+    "sha256": "47f9c61a67741d791ce6e1816eece04558ab9a9830f35ca85c64c8d923ee7133",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "usc-marshall-casebook-2001",
+    "title": "USC Marshall Casebook-2001",
+    "file": "USC Marshall Casebook-2001.pdf",
+    "format": "pdf",
+    "pages": 50,
+    "sha256": "8febfddc258851624596f68997b9d4418907f36a32c5b310da82ced7f0f7798e",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "usc-marshall-casebook-2015-1",
+    "title": "USC Marshall Casebook-2015-1",
+    "file": "USC Marshall Casebook-2015-1.pdf",
+    "format": "pdf",
+    "pages": 94,
+    "sha256": "15e9c256bc438ebe49fafc8f7a378fe7a14ca19565c36def2582d07cf3fb3401",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "usc-marshall-casebook-2015-2",
+    "title": "USC Marshall Casebook-2015-2",
+    "file": "USC Marshall Casebook-2015-2.pdf",
+    "format": "pdf",
+    "pages": 49,
+    "sha256": "ab988112b11d9e77e08ae412532415f3ad9edeba544fc026d52bc257e0a46ed2",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "usc-marshall-casebook-2015-3",
+    "title": "USC Marshall Casebook-2015-3",
+    "file": "USC Marshall Casebook-2015-3.pdf",
+    "format": "pdf",
+    "pages": 59,
+    "sha256": "1fc6059a96aa8901e49515cbe36ca757209f73d65e6493988afb4458ec62332e",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "ut-austin-mccombs-2007",
+    "title": "UT Austin McCombs-2007",
+    "file": "UT Austin McCombs-2007.pdf",
+    "format": "pdf",
+    "pages": 55,
+    "sha256": "7ad43059dfe91cada41cadb464b8e9c97b054b4e27f7a5e6260fd1d8dcd26482",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "ut-austin-mccombs-2008",
+    "title": "UT Austin McCombs-2008",
+    "file": "UT Austin McCombs-2008.pdf",
+    "format": "pdf",
+    "pages": 19,
+    "sha256": "527d2ae4e8e68d48fa5dfe7dce2201cddc80988a9bb2cbff0995286d4b81a295",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "uva-darden-casebook-2002",
+    "title": "UVA Darden Casebook-2002",
+    "file": "UVA Darden Casebook-2002.pdf",
+    "format": "pdf",
+    "pages": 114,
+    "sha256": "b5336790de99078893ae1d70e4cc0bba55d9e6af9f6d9572425786a28802cd64",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "uva-darden-casebook-2003",
+    "title": "UVA Darden Casebook-2003",
+    "file": "UVA Darden Casebook-2003.pdf",
+    "format": "pdf",
+    "pages": 93,
+    "sha256": "32fe8a1d4a4e5896c2fca11a60ee7d4f358949e80f67b0fc33ebfa3dc312f964",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "uva-darden-casebook-2005",
+    "title": "UVA Darden Casebook-2005",
+    "file": "UVA Darden Casebook-2005.pdf",
+    "format": "pdf",
+    "pages": 17,
+    "sha256": "0d65e1fdddce0c7b44d267364d2babc9cb652a07a5c713a2964480074c3526aa",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "uva-darden-casebook-2008",
+    "title": "UVA Darden Casebook-2008",
+    "file": "UVA Darden Casebook-2008.pdf",
+    "format": "pdf",
+    "pages": 80,
+    "sha256": "b495abad2aef3415c4f0178da042051ce19089fba7c65993f6660e85f3b18172",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "uva-darden-casebook-2011",
+    "title": "UVA Darden Casebook-2011",
+    "file": "UVA Darden Casebook-2011.pdf",
+    "format": "pdf",
+    "pages": 196,
+    "sha256": "3da63b94127b0a2b50efa0d66cd90685fb05b7071bc67e98dde173739c9a49ea",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "uva-darden-casebook-2012",
+    "title": "UVA Darden Casebook-2012",
+    "file": "UVA Darden Casebook-2012.pdf",
+    "format": "pdf",
+    "pages": 195,
+    "sha256": "80c03a42b078d5110dc5d9dc0c8b96fc9f16d47f39fe3aecc99c7149ea98ef22",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "uva-darden-casebook-2014-1",
+    "title": "UVA Darden Casebook-2014-1",
+    "file": "UVA Darden Casebook-2014-1.pdf",
+    "format": "pdf",
+    "pages": 88,
+    "sha256": "69100ee92cde9004400533177442591fafec1eab4ed7989ad9de215ef4808036",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "uva-darden-casebook-2014-2",
+    "title": "UVA Darden Casebook-2014-2",
+    "file": "UVA Darden Casebook-2014-2.pdf",
+    "format": "pdf",
+    "pages": 154,
+    "sha256": "443da10681d3d5c5bf14afa074a924efd32ad5684b9a2a1e5b890be24b3f4f3f",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "uva-darden-casebook-2018",
+    "title": "UVA Darden Casebook-2018",
+    "file": "UVA Darden Casebook-2018.pdf",
+    "format": "pdf",
+    "pages": 178,
+    "sha256": "514a226943ff1d6fceb571ccdd4d49464d250cc30e8a0781200a9a72710438ef",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "wharton-casebook-2024-2025",
+    "title": "Wharton Casebook 2024-2025",
+    "file": "Wharton Casebook 2024-2025.pdf",
+    "format": "pdf",
+    "pages": 280,
+    "sha256": "7c89d042a6bd96c245eb230dc357e7acaa79eb43180e63081548a812c7ba2d01",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "wharton-case-book-2017",
+    "title": "Wharton Case Book 2017",
+    "file": "Wharton_Case_Book_2017.pdf",
+    "format": "pdf",
+    "pages": 201,
+    "sha256": "ce11a0188b1ef7afba44db4476d0547e1007fd8b9c65ca6b691f36d23c64a823",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "ygcc-casebook-2024",
+    "title": "YGCC casebook 2024",
+    "file": "YGCC_casebook_2024.pdf",
+    "format": "pdf",
+    "pages": 181,
+    "sha256": "63ac7e3857d07a3ca64ee81d9fbf571979069d632404f710a67773cd9c24eaef",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "yale-casebook-2008",
+    "title": "Yale Casebook-2008",
+    "file": "Yale Casebook-2008.pdf",
+    "format": "pdf",
+    "pages": 180,
+    "sha256": "a412456ae1fad1e6f679a3abaef9a6ffb6ba0b1561b1ee59e3326261cfac1185",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "yale-casebook-2013",
+    "title": "Yale Casebook-2013",
+    "file": "Yale Casebook-2013.pdf",
+    "format": "pdf",
+    "pages": 120,
+    "sha256": "f7d8fb135f431422569769d62650a4c99b915d593a984a57ad8e2b27e7cc0895",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "yale-2013",
+    "title": "Yale 2013",
+    "file": "Yale_2013.pdf",
+    "format": "pdf",
+    "pages": 120,
+    "sha256": "26b62a668d35229801f9dbf9aba802b17b47a7f0a72b175ce70528850d2ca95b",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Preserved original source. Case-level completeness and every answer/exhibit have not been independently certified."
+  },
+  {
+    "id": "notre-dame-2026",
+    "title": "University of Notre Dame 2026 Case Book (Meruelo Family Center for Career Development / Consulting Connect)",
+    "url": "https://consultingconnect.nd.edu/assets/658111/university_of_notre_dame_case_book.pdf",
+    "format": "pdf",
+    "pages": 340,
+    "checked_on": "2026-11-15",
+    "coverage_note": "Full case-title/range mapping; source answer sections identified. Math and visual exhibit correctness are not certified."
+  },
+  {
+    "id": "penn-career-services",
+    "title": "The University of Pennsylvania Consulting Preparation Guide (Penn Career Services)",
+    "url": "https://cdn.uconnectlabs.com/wp-content/uploads/sites/74/2019/09/Penn-Case-Book-with-Practice-Cases.pdf",
+    "format": "pdf",
+    "pages": 194,
+    "checked_on": "2026-11-15",
+    "coverage_note": "Full case-title/range mapping; source answer sections identified. Math and visual exhibit correctness are not certified."
+  },
+  {
+    "id": "fms-2025-26",
+    "title": "FMS Delhi Consulting Case Book 2025–26",
+    "url": "https://drive.google.com/file/d/1_T0ezaKdwGKeGBeZTW8zCMsRshQw6QaK/view",
+    "format": "pdf",
+    "pages": 325,
+    "checked_on": "2026-11-15",
+    "coverage_note": "76 case recollections mapped to dialogue and approach pages. These are student-reported interviews, not firm-issued interviewer packets. Cover identifies the edition; embedded PDF title is stale."
+  },
+  {
+    "id": "mckinsey-beautify",
+    "title": "Official McKinsey — Beautify",
+    "url": "https://www.mckinsey.com/careers/interviewing/beautify",
+    "format": "web",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Publisher's guided practice case; original peer-interviewer adaptation links to its published answers."
+  },
+  {
+    "id": "mckinsey-diconsa",
+    "title": "Official McKinsey — Diconsa",
+    "url": "https://www.mckinsey.com/careers/interviewing/diconsa",
+    "format": "web",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Publisher's guided practice case; original peer-interviewer adaptation links to its published answers."
+  },
+  {
+    "id": "mckinsey-electrolight",
+    "title": "Official McKinsey — Electro-Light",
+    "url": "https://www.mckinsey.com/careers/interviewing/electrolight",
+    "format": "web",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Publisher's guided practice case; original peer-interviewer adaptation links to its published answers."
+  },
+  {
+    "id": "mckinsey-national-education",
+    "title": "Official McKinsey — National Education",
+    "url": "https://www.mckinsey.com/careers/interviewing/national-education",
+    "format": "web",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Publisher's guided practice case; original peer-interviewer adaptation links to its published answers."
+  },
+  {
+    "id": "mckinsey-talbot-trucks",
+    "title": "Official McKinsey — Talbot Trucks",
+    "url": "https://www.mckinsey.com/careers/interviewing/talbot-trucks",
+    "format": "web",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Publisher's guided practice case; original peer-interviewer adaptation links to its published answers."
+  },
+  {
+    "id": "bain-coffee",
+    "title": "Official Bain — Coffee Shop Co.",
+    "url": "https://www.bain.com/careers/hiring-process/interviewing/coffee-case-study/",
+    "format": "web",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Publisher's guided practice case; original peer-interviewer adaptation links to its published answers."
+  },
+  {
+    "id": "bain-fashion",
+    "title": "Official Bain — FashionCo.",
+    "url": "https://www.bain.com/careers/hiring-process/interviewing/fashion-case-study/",
+    "format": "web",
+    "checked_on": "2026-11-15",
+    "coverage_note": "Publisher's guided practice case; original peer-interviewer adaptation links to its published answers."
+  },
+  {
+    "id": "fms-casebook-2020-21",
+    "title": "FMS Delhi Consulting Case Book 2020-21",
+    "url": "https://drive.google.com/file/d/1syz3wdQ_UjdEf1UUEeG9g4GxvV4R77d_/view",
+    "format": "pdf",
+    "pages": 168,
+    "checked_on": "2026-11-15",
+    "coverage_note": "Publisher-linked FMS consulting archive edition; cover/edition identity checked. Case ranges and source model-approach pages mapped; student recollections, not firm-authenticated scripts. Numerical and visual correctness require preparation before a live trade."
+  },
+  {
+    "id": "fms-casebook-2021-22",
+    "title": "FMS Delhi Consulting Case Book 2021-22",
+    "url": "https://drive.google.com/file/d/1QiHFHt39H7ftXULBUNazha2ixRfy1uhj/view",
+    "format": "pdf",
+    "pages": 200,
+    "checked_on": "2026-11-15",
+    "coverage_note": "Publisher-linked FMS consulting archive edition; cover/edition identity checked. Case ranges and source model-approach pages mapped; student recollections, not firm-authenticated scripts. Numerical and visual correctness require preparation before a live trade."
+  },
+  {
+    "id": "fms-casebook-2023-24",
+    "title": "FMS Delhi Consulting Case Book 2023-24",
+    "url": "https://drive.google.com/file/d/15APkxF6aQuJrogqNhnwogU_AOs-EUuXE/view",
+    "format": "pdf",
+    "pages": 248,
+    "checked_on": "2026-11-15",
+    "coverage_note": "Publisher-linked FMS consulting archive edition; cover/edition identity checked. Case ranges and source model-approach pages mapped; student recollections, not firm-authenticated scripts. Numerical and visual correctness require preparation before a live trade."
+  },
+  {
+    "id": "fms-casebook-2024-25",
+    "title": "FMS Delhi Consulting Case Book 2024-25",
+    "url": "https://drive.google.com/file/d/1boZt5E6bT7ia6ysWFnmZeOaZ9RmTMuqB/view",
+    "format": "pdf",
+    "pages": 279,
+    "checked_on": "2026-11-15",
+    "coverage_note": "Publisher-linked FMS consulting archive edition; cover/edition identity checked. Case ranges and source model-approach pages mapped; student recollections, not firm-authenticated scripts. Numerical and visual correctness require preparation before a live trade."
+  }
+]
